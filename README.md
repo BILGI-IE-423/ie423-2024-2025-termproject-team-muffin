@@ -12,8 +12,8 @@ The project focuses on developing a text-based pipeline that can intelligently c
 1. How accurately can the genre of streaming content be predicted from its description and age group?  
 2. How accurately can the target age group be predicted from its description and genre?  
 3. To what extent can a content description be generated using only the title, genre, and age group?  
-4. How does the duration of streaming content (short vs. long) affect popularity among different audience groups, especially younger viewers influenced by short-form media trends?  
-5. Are streaming platforms increasingly favoring shorter or more popular content in response to changing viewing habits?
+4. How does the duration of streaming content (short vs. long) affect popularity among different audience groups?
+
 
 #  About Preprocessing Data
 
