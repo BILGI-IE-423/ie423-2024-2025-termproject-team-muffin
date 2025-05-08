@@ -1,6 +1,4 @@
-#  Project Proposal
-
-##  Project Title:
+#  Project Title:
 **Predicting and Generating Missing Metadata Fields in Streaming Content Using Text-Based Models**
 
 ##  Abstract
