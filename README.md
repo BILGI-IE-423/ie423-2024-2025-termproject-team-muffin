@@ -181,7 +181,7 @@ This encoding ensures compatibility with classification algorithms, which typica
 
 ![Image](https://github.com/user-attachments/assets/a5c9efe9-be0a-46b8-9043-b438defeb652)
 
-
+![Image](https://github.com/user-attachments/assets/e09dea57-d3d6-46c6-8324-98aab4d96dc5)
 
 
 ---
