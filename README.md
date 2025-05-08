@@ -120,7 +120,7 @@ This improved model accuracy and reduced label noise.
 ---
 
 
-## 🔹 Step 6: Genre Filtering (Post-Encoding)
+## 🔹 Step 6: Genre Filtering
 
 Some genres were removed after encoding due to ambiguity or low semantic value, such as:
 
