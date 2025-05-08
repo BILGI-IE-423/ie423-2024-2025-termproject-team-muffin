@@ -5,6 +5,14 @@ import ast
 from collections import Counter
 from sklearn.preprocessing import MultiLabelBinarizer
 
+import pandas as pd
+
+# Panda Configurations
+pd.set_option('display.max_rows', None)
+pd.set_option('display.max_columns', None)
+pd.set_option('display.max_colwidth', None)
+pd.set_option('display.expand_frame_repr', False)
+
 # Folder Control
 REQUIRED_FOLDERS = ["Raw Datasets", "Training Datasets", "Encoded Datasets"]
 for folder in REQUIRED_FOLDERS:
@@ -234,14 +242,26 @@ genre_encoded = pd.DataFrame(mlb.fit_transform(df_duration["normalized_genres"])
 df_duration = df_duration.reset_index(drop=True).join(genre_encoded)
 df_duration = pd.get_dummies(df_duration, columns=["audience_group", "duration_group"])
 
+
+
 # Encoded Outputs Directory
 encoded_dir = os.path.join(os.getcwd(), "Encoded Datasets")
+bool_cols = df_duration.select_dtypes(include='bool').columns
+df_duration[bool_cols] = df_duration[bool_cols].astype(int)
 df_duration.to_csv(os.path.join(encoded_dir, "duration_training_encoded.csv"), index=False)
+
+print(df_duration.head(10))
 
 # Audience_group one-hot
 df_age_encoded = df_age.copy()
 df_age_encoded = pd.get_dummies(df_age_encoded, columns=["audience_group"])
+bool_cols = df_age_encoded.select_dtypes(include='bool').columns
+df_age_encoded[bool_cols] = df_age_encoded[bool_cols].astype(int)
+
+
 df_age_encoded.to_csv(os.path.join(encoded_dir, "audience_group_training_encoded.csv"), index=False)
+
+print(df_age_encoded.head(10))
 
 # Normalized_genres -> one-hot
 df_genre_encoded = df_genre.copy()
@@ -252,3 +272,7 @@ mlb_genre = MultiLabelBinarizer()
 genre_onehot = pd.DataFrame(mlb_genre.fit_transform(df_genre_encoded["normalized_genres"]), columns=mlb_genre.classes_)
 df_genre_encoded = df_genre_encoded.reset_index(drop=True).join(genre_onehot)
 df_genre_encoded.to_csv(os.path.join(encoded_dir, "genre_training_encoded.csv"), index=False)
+
+
+print(df_genre_encoded.head())
+
