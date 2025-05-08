@@ -204,7 +204,7 @@ The preprocessing pipeline lays the foundation for a modular system designed to 
   - **Personalized content tagging**
 
 All models rely solely on **textual features**, in line with the project’s NLP focus.
-![Image]([https://github.com/user-attachments/assets/a5c9efe9-be0a-46b8-9043-b438defeb652](https://github.com/BILGI-IE-423/ie423-2024-2025-termproject-team-muffin/blob/70b6030d0b72bd01857aa8bab45d6fa21739a566/Figure_1.png))
+
 
 
 ## 🟢 How to Run
