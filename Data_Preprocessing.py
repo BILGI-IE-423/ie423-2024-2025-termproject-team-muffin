@@ -2,10 +2,8 @@ import pandas as pd
 import os
 import re
 import ast
-from collections import Counter
 from sklearn.preprocessing import MultiLabelBinarizer
 
-import pandas as pd
 
 # Panda Configurations
 pd.set_option('display.max_rows', None)
@@ -249,8 +247,9 @@ encoded_dir = os.path.join(os.getcwd(), "Encoded Datasets")
 bool_cols = df_duration.select_dtypes(include='bool').columns
 df_duration[bool_cols] = df_duration[bool_cols].astype(int)
 df_duration.to_csv(os.path.join(encoded_dir, "duration_training_encoded.csv"), index=False)
-
+print("Output of Duration Encoded")
 print(df_duration.head(10))
+print("----------------------------------------------------")
 
 # Audience_group one-hot
 df_age_encoded = df_age.copy()
@@ -261,8 +260,9 @@ df_age_encoded[bool_cols] = df_age_encoded[bool_cols].astype(int)
 
 df_age_encoded.to_csv(os.path.join(encoded_dir, "audience_group_training_encoded.csv"), index=False)
 
+print("Output of Age Encoded")
 print(df_age_encoded.head(10))
-
+print("----------------------------------------------------")
 # Normalized_genres -> one-hot
 df_genre_encoded = df_genre.copy()
 df_genre_encoded["normalized_genres"] = df_genre_encoded["normalized_genres"].apply(clean_and_filter_genres)
@@ -273,6 +273,6 @@ genre_onehot = pd.DataFrame(mlb_genre.fit_transform(df_genre_encoded["normalized
 df_genre_encoded = df_genre_encoded.reset_index(drop=True).join(genre_onehot)
 df_genre_encoded.to_csv(os.path.join(encoded_dir, "genre_training_encoded.csv"), index=False)
 
-
+print("Output of Genre Encoded")
 print(df_genre_encoded.head())
 
