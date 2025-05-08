@@ -181,6 +181,9 @@ This encoding ensures compatibility with classification algorithms, which typica
 
 ![Image](https://github.com/user-attachments/assets/a5c9efe9-be0a-46b8-9043-b438defeb652)
 
+![Image]([https://github.com/user-attachments/assets/a5c9efe9-be0a-46b8-9043-b438defeb652](https://github.com/JesusCanberk/CNN/issues/1#issue-3049742326))
+
+
 
 ---
 
