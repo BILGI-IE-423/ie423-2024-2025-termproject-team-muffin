@@ -279,14 +279,11 @@ print(df_genre_encoded.head())
 
 df_heat = df_duration.copy()
 
-# Duration ve age gruplarını sadeleştir
 df_heat["duration_cat"] = df_heat[["duration_group_short", "duration_group_medium", "duration_group_long"]].idxmax(axis=1).str.replace("duration_group_", "")
 df_heat["age_cat"] = df_heat[["audience_group_child", "audience_group_teen", "audience_group_adult"]].idxmax(axis=1).str.replace("audience_group_", "")
 
-# Çapraz tablo oluştur
 cross_tab = pd.crosstab(df_heat["duration_cat"], df_heat["age_cat"])
 
-# Heatmap çiz
 plt.figure(figsize=(8, 5))
 sns.heatmap(cross_tab, annot=True, fmt="d", cmap="YlOrRd")
 plt.title("Movie Duration vs Age Group")
