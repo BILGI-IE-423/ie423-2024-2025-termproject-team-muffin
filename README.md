@@ -1,4 +1,4 @@
-*Predicting and Generating Missing Metadata Fields in Streaming Content Using Text-Based Models**
+#Predicting and Generating Missing Metadata Fields in Streaming Content Using Text-Based Models
 
 ##  Abstract
 This project aims to fill missing metadata fields—such as genre, target age group, and description—in streaming content datasets using Natural Language Processing and machine learning techniques. When one of the key elements (genre, age group, or description) is missing, the remaining available fields will be used to predict or generate the missing information. Classification models will be trained for genre and age group prediction, while a generative model will be used to construct meaningful descriptions from title, genre, and age data. Additionally, the relationship between content duration and popularity will be analyzed to understand audience preferences and platform strategies. The project focuses entirely on text-based features and uses publicly available streaming content datasets.
