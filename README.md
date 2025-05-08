@@ -151,7 +151,8 @@ This encoding ensures compatibility with classification algorithms, which typica
 | jailbirds new orleans | Feuds, flirtations and toilet talk go down among the incarcerated women at the O... |                      1 |                      0 |                     0 |
 | kota factory          | In a city of coaching centers known to train India’s finest collegiate minds, an... |                      1 |                      0 |                     0 |
 
-![Image](https://github.com/user-attachments/assets/a5c9efe9-be0a-46b8-9043-b438defeb652)
+![Image](https://github.com/user-attachments/assets/42d5a99f-6917-4a20-8701-67ef939ada43)
+
 
 | title              | norm_title     |   release_year |   vote_average |   vote_count |   popularity |   duration | normalized_genres                 |   action |   adventure |   comedy |   documentary |   drama |   horror |   romance |   sci-fi |   thriller | audience_group_adult   | audience_group_child   | audience_group_teen   | duration_group_long   | duration_group_medium   | duration_group_short   |
 |:-------------------|:---------------|---------------:|---------------:|-------------:|-------------:|-----------:|:----------------------------------|---------:|------------:|---------:|--------------:|--------:|---------:|----------:|---------:|-----------:|:-----------------------|:-----------------------|:----------------------|:----------------------|:------------------------|:-----------------------|
@@ -161,7 +162,8 @@ This encoding ensures compatibility with classification algorithms, which typica
 | The Karate Kid     | karate kid     |           2010 |          6.549 |         6158 |      80.9417 |        140 | ['drama', 'adventure', 'action']  |        1 |           1 |        0 |             0 |       1 |        0 |         0 |        0 |          0 | False                  | True                   | False                 | True                  | False                   | False                  |
 | Gerald's Game      | geralds game   |           2017 |          6.394 |         3715 |      65.1805 |        104 | ['thriller', 'horror']            |        0 |           0 |        0 |             0 |       0 |        1 |         0 |        0 |          1 | True                   | False                  | False                 | False                 | True                    | False                  |
 
-![Image](https://github.com/user-attachments/assets/42d5a99f-6917-4a20-8701-67ef939ada43)
+![Image](https://github.com/user-attachments/assets/c4164620-7ad2-4c28-a053-e4811747eab3)
+
 
 | norm_title            | description                                                                                                                                              | normalized_genres     |   action |   adventure |   comedy |   documentary |   drama |   horror |   romance |   sci-fi |   thriller |
 |:----------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------|---------:|------------:|---------:|--------------:|--------:|---------:|----------:|---------:|-----------:|
@@ -171,7 +173,8 @@ This encoding ensures compatibility with classification algorithms, which typica
 | jailbirds new orleans | Feuds, flirtations and toilet talk go down among the incarcerated women at the Orleans Justice Center in New Orleans on this gritty reality series.      | ['documentary']       |        0 |           0 |        0 |             1 |       0 |        0 |         0 |        0 |          0 |
 | kota factory          | In a city of coaching centers known to train India’s finest collegiate minds, an earnest but unexceptional student and his friends navigate campus life. | ['comedy', 'romance'] |        0 |           0 |        1 |             0 |       0 |        0 |         1 |        0 |          0 |
 
-![Image](https://github.com/user-attachments/assets/c4164620-7ad2-4c28-a053-e4811747eab3)
+![Image](https://github.com/user-attachments/assets/a5c9efe9-be0a-46b8-9043-b438defeb652)
+
 
 ---
 
