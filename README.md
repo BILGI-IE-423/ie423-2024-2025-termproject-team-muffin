@@ -206,9 +206,11 @@ The preprocessing pipeline lays the foundation for a modular system designed to 
   - **Personalized content tagging**
 
 All models rely solely on **textual features**, in line with the project’s NLP focus.
+---
+## Analysis of Content Duration and Popularity
+In our research we try to analyse the there was a significant relationship between duration and popularity for each audience group. The popularity index was determined as 7 and if the movie's popularity value was 7 it was assigned as popular if it was less than 7 it was assigned as not popular. Then Spearman and Pearson distribution analysis was performed. The results are in fiq2. When we consider that it did not exceed 0.2 in the two analyses we could exist without any relationship between them.
 
-## Research Question 4
-
+---
 
 ## 🟢 How to Run
 
