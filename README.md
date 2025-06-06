@@ -211,7 +211,7 @@ All models rely solely on **textual features**, in line with the project’s NLP
 In our research, we examined whether there was a significant relationship between duration and popularity across different audience groups. The popularity index was set at a threshold of 7, where movies with a popularity score of 7 or higher were classified as popular, and those with a score below 7 as not popular. We then performed both Spearman and Pearson correlation analyses to explore the relationship between movie duration and popularity. The results, presented in Figure 2, showed that the correlation coefficients in both analyses did not exceed 0.2, indicating a very weak correlation. Based on these findings, we conclude that there is no significant relationship between movie duration and popularity within the analyzed audience groups.
 
 ![Fiqure_2](https://github.com/user-attachments/assets/403a383e-291f-4298-ab52-42a3c5f3d029)
-
+fiq2
 
 ---
 
