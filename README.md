@@ -167,7 +167,7 @@ This encoding ensures compatibility with classification algorithms, which typica
 | Moonlight          | moonlight         | 2016          | 7.373         | 7165        | 47.6157     | 111       | [drama]                     | 0      | 0         | 0      | 0            | 1      | 0      | 0       | 0      | 0        | 0                      | 0                      | 1                    | 0                    | 1                      | 0                      |
 | Angel Has Fallen   | angel has fallen  | 2019          | 6.594         | 3604        | 55.8201     | 122       | [thriller, action]          | 1      | 0         | 0      | 0            | 0      | 0      | 0       | 0      | 1        | 0                      | 0                      | 1                    | 1                    | 0                      | 0                      |
 
-![Image](https://github.com/user-attachments/assets/c4164620-7ad2-4c28-a053-e4811747eab3)
+![Image](https://github.com/user-attachments/assets/c0047b7a-dc13-49cf-bbed-cd32d5e3c0c0)
 
 
 | norm_title            | description                                                                                                                                              | normalized_genres     |   action |   adventure |   comedy |   documentary |   drama |   horror |   romance |   sci-fi |   thriller |
