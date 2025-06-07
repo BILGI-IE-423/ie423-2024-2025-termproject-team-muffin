@@ -130,7 +130,7 @@ These were excluded using `clean_and_filter_genres()`.
 Only the following genres were retained:
 
 ```
-["action", "adventure", "drama", "comedy", "romance", "horror", "documentary", "sci-fi", "thriller"]
+["action", "drama", "comedy", "romance", "horror", "documentary"]
 ```
 
 ## 🔹 Step 7: One-Hot Encoding
