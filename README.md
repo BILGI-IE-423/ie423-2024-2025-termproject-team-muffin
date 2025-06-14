@@ -238,10 +238,9 @@ To enhance classification accuracy, an **ensemble model** was built by combining
 - Meta-learner: **Logistic Regression (One-vs-Rest)**
 - Trained on test set outputs of base models
 
-### Final Evaluation:
+### 📊 Final Evaluation:
 - **Accuracy**, **macro F1-score**, and **confusion matrix** computed
-
-#📊 Final Model Performance
+ 
 
 | Class         | Precision | Recall | F1-score | Support |
 |---------------|-----------|--------|----------|---------|
