@@ -225,6 +225,8 @@ To address this:
 - Best model selected using **early stopping**
 - Predictions saved for ensemble modeling
 
+![Image](https://github.com/user-attachments/assets/39f4e780-56df-40a8-803e-5ea08de91e66)
+
 ---
 
 # 🔗 Ensemble Model (Stacked Logistic Regression)
