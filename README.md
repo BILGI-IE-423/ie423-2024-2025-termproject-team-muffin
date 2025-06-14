@@ -133,22 +133,7 @@ Only the following genres were retained:
 ['action','sci-fi','comedy','documentary','drama','horror','thriller','romance']
 ```
 
-## 🔹 Step 7: One-Hot Encoding
 
-To prepare data for machine learning models, categorical fields were transformed into binary vectors:
-
-- `normalized_genres` (multi-label) was encoded using `MultiLabelBinarizer`, generating one column per genre.
-- `audience_group` and `duration_group` were encoded using `pd.get_dummies()` to convert each category into a binary column.
-
-This encoding ensures compatibility with classification algorithms, which typically require numerical input. The final encoded datasets serve as input for genre and age group prediction, as well as for correlation studies involving duration and popularity.
-
-| norm_title            | description                                                                         |   audience_group_adult |   audience_group_child |   audience_group_teen |
-|:----------------------|:------------------------------------------------------------------------------------|-----------------------:|-----------------------:|----------------------:|
-| dick johnson is dead  | As her father nears the end of his life, filmmaker Kirsten Johnson stages his de... |                      0 |                      0 |                     1 |
-| blood water           | After crossing paths at a party, a Cape Town teen sets out to prove whether a pr... |                      1 |                      0 |                     0 |
-| ganglands             | To protect his family from a powerful drug lord, skilled thief Mehdi and his exp... |                      1 |                      0 |                     0 |
-| jailbirds new orleans | Feuds, flirtations and toilet talk go down among the incarcerated women at the O... |                      1 |                      0 |                     0 |
-| kota factory          | In a city of coaching centers known to train India’s finest collegiate minds, an... |                      1 |                      0 |                     0 |
 
 ![Image](https://github.com/user-attachments/assets/42d5a99f-6917-4a20-8701-67ef939ada43)
 
