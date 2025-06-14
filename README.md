@@ -177,6 +177,8 @@ To address this:
 - **Data labeling** and **active learning** techniques were applied for entries labeled as 'child' and 'adult'.
 - Entries with **uncertain labels** were **removed** from the dataset to reduce noise.
 
+  ![Image](https://github.com/user-attachments/assets/e388af69-e5c4-4f36-a02b-8d3d4aaf0378)
+
 ---
 
 # 🧠 Model Training
