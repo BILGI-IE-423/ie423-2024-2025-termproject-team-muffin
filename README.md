@@ -330,7 +330,7 @@ In our research, we examined whether there was a significant relationship betwee
 
 
 
-![Image](https://github.com/JesusCanberk/Image/issues/3#issuecomment-2973149218)
+[![Image](https://github.com/JesusCanberk/Image/issues/3#issuecomment-2973149218)](https://github.com/JesusCanberk/images/blob/main/Q_1_1.png?raw=true)
 
 
 ---
