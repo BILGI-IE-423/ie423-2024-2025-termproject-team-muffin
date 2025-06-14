@@ -343,7 +343,7 @@ In our research, we examined whether there was a significant relationship betwee
 
 
 
-![Image](https://github.com/user-attachments/assets/38e5c77a-0016-4286-a75d-c59a47ad2e1b)
+![Image](https://github.com/user-attachments/assets/28a337bb-67d7-4418-b9fa-61ac73312b9c)
 ---
 
 ## 🟢 How to Run
