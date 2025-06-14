@@ -241,17 +241,19 @@ To enhance classification accuracy, an **ensemble model** was built by combining
 ### Final Evaluation:
 - **Accuracy**, **macro F1-score**, and **confusion matrix** computed
 
-- 📊 Final Model Performance
-| Class   | Precision | Recall | F1-score | Support |
-|---------|-----------|--------|----------|---------|
-| Adult   | 0.86      | 0.82   | 0.84     | 652     |
-| Child   | 0.59      | 0.66   | 0.62     | 256     |
-| Accuracy       |        |          | 0.77 | 908 |
-| Macro Avg      | 0.72   | 0.74     | 0.73     | 908     |
-| Weighted Avg   | 0.78   | 0.77     | 0.78     | 908     |
+#📊 Final Model Performance
 
-Overall Accuracy: 0.7742
-Macro F1 Score: 0.7313
+| Class         | Precision | Recall | F1-score | Support |
+|---------------|-----------|--------|----------|---------|
+| Adult         | 0.86      | 0.82   | 0.84     | 652     |
+| Child         | 0.59      | 0.66   | 0.62     | 256     |
+| Accuracy      |           |        | 0.77     | 908     |
+| Macro Avg     | 0.72      | 0.74   | 0.73     | 908     |
+| Weighted Avg  | 0.78      | 0.77   | 0.78     | 908     |
+
+**Overall Accuracy**: 0.7742  
+**Macro F1 Score**: 0.7313
+
 
 ---
 
