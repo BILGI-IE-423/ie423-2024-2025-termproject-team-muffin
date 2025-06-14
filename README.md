@@ -99,18 +99,17 @@ Each contains cleaned, normalized fields such as `description`, `normalized_genr
 
 ##  Generated Datasets
 
-
-
 The preprocessing script produces the following structured CSV files, each tailored for a specific task in the project:
 
-| **File Name**                         | **Content Description**                                                                 | **Used For**                                                              |
-|--------------------------------------|------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| `audience_group_training_data.csv`   | `norm_title`, `description`, `audience_group`                                            | Base dataset for age group classification                                 |
-| `genre_training_data.csv`            | `norm_title`, `description`, `normalized_genres`                                         | Base dataset for genre classification                                     |
-| `duration_popularity_training_data.csv` | `title`, `norm_title`, `duration`, `release_year`, `vote_average`, `popularity`, `normalized_genres`, `audience_group` | Input for duration and popularity analysis        |
-| `audience_group_training_encoded.csv`| One-hot encoded version of `audience_group_training_data.csv`                            | Final input for training age group classification model                   |
-| `genre_training_encoded.csv`         | One-hot encoded version of `genre_training_data.csv`                                     | Final input for training genre classification model                       |
-| `duration_training_encoded.csv` | One-hot encoded version of `duration_popularity_training_data.csv`, includes encoded genres and age group | Used in feature-based modeling and popularity-duration exploration |
+
+| Filename                                | Description                                                                                      | How It Was Created                                                                                          | Purpose                                                                                       |
+|-----------------------------------------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| `augmented_genre_only.csv`              | Augmented examples for multi-label genre classification.                                         | Texts were augmented using `nlpaug` for genres with relatively fewer samples.                               | To increase the representation of underrepresented genres during genre model training.        |
+| `Decoded_Dataset_with_Genres_Sentiment_Violence.csv` | Dataset with genres, sentiment scores, and violence flags.                                       | Original dataset enriched with sentiment and violence features.                                              | Used as input for genre and audience classification models.                                  |
+| `duration_popularity_training_data.csv` | Dataset containing duration and popularity-related fields.                                       | Extracted and cleaned from TMDb metadata.                                                                   | Used in modeling tasks related to content duration and popularity.                           |
+| `multiinput_amazon_netflix_genre.csv`   | Main dataset with normalized genres and audience groups.                                         | Merged and preprocessed entries from Netflix and Amazon datasets.                                           | Used in all audience classification models.                                                   |
+| `test_norm_titles.csv`                  | List of normalized titles for the test set.                                                      | Created during `train_test_split` to ensure dataset consistency.                                            | Used for consistent evaluation filtering.                                                     |
+| `train_augmented_child.csv`             | Augmented training data for the `child` class only.                                              | Generated using `nlpaug` and saved separately.                                                              | Balances the training set without affecting validation/test sets.                             |
 
 
 
