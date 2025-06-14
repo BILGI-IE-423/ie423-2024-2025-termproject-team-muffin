@@ -344,6 +344,7 @@ In our research, we examined whether there was a significant relationship betwee
 
 
 ![Image](https://github.com/user-attachments/assets/28a337bb-67d7-4418-b9fa-61ac73312b9c)
+![Image](https://github.com/user-attachments/assets/98871710-1396-4f55-87a1-5157a42742a6)
 ---
 
 ## 🟢 How to Run
