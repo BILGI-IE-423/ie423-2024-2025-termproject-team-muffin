@@ -191,6 +191,7 @@ To address this:
   - Max depth: 5
   - Learning rate: 0.1
 - **Evaluation**: Conducted on a separate test set using classification metrics and a confusion matrix
+  ![Image](https://github.com/user-attachments/assets/df40497e-538a-4f4b-b89f-7f5f3c3dbe87)
 
 ---
 
