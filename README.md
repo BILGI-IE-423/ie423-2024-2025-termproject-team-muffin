@@ -206,6 +206,165 @@ The preprocessing pipeline lays the foundation for a modular system designed to 
 
 All models rely solely on **textual features**, in line with the project’s NLP focus.
 
+
+
+
+# 🔎 Data Cleaning and Labeling Strategy
+
+Initially, we identified the entries with softmax scores below the 0.5 threshold in the audience group. Upon further analysis, we observed that the **'teen'** feature often produced insufficient and misleading signals in the dataset. 
+
+To address this:
+- **Data labeling** and **active learning** techniques were applied for entries labeled as 'child' and 'adult'.
+- Entries with **uncertain labels** were **removed** from the dataset to reduce noise.
+
+---
+
+# 🧠 Model Training
+
+## ✅ TF-IDF + XGBoost
+
+- **Textual inputs**: TF-IDF applied to `description` and `genre`
+- **Numerical inputs**: `sentiment_score` and `violence_flag`
+- **Augmented data**: Used **only in training** for the `child` class to avoid data leakage
+- **Model parameters**:
+  - Estimators: 250
+  - Max depth: 5
+  - Learning rate: 0.1
+- **Evaluation**: Conducted on a separate test set using classification metrics and a confusion matrix
+
+---
+
+## ✅ LSTM (GloVe + BiLSTM)
+
+- Combined **GloVe embeddings** and **Bidirectional LSTM**
+- Concatenated with:
+  - TF-IDF genre features
+  - Sentiment score
+  - Violence flag
+- **Augmented child data** used only during training
+- **Class imbalance** handled with class weights
+- **Early stopping** applied on validation set
+- Final output used for:
+  - Evaluation metrics
+  - Ensemble input
+
+---
+
+## ✅ DistilBERT
+
+- Fine-tuned transformer model on `description` to classify audience group (`adult` / `child`)
+- Data split into **train**, **validation**, and **test**
+- **Augmented child data** included only in training
+- Optimization via **Optuna**:
+  - Learning rate
+  - Dropout
+  - Batch size
+- **Weighted sampling** used for class imbalance
+- Best model selected using **early stopping**
+- Predictions saved for ensemble modeling
+
+---
+
+# 🔗 Ensemble Model (Stacked Logistic Regression)
+
+To enhance classification accuracy, an **ensemble model** was built by combining:
+
+- DistilBERT
+- GloVe-LSTM
+- TF-IDF + XGBoost
+
+### How It Works:
+- Each model's **class probabilities + confidence scores** used as input features
+- Meta-learner: **Logistic Regression (One-vs-Rest)**
+- Trained on test set outputs of base models
+
+### Final Evaluation:
+- **Accuracy**, **macro F1-score**, and **confusion matrix** computed
+
+---
+
+# 🎯 Multi-Label Genre Classification: Model Comparison
+
+## 1. DistilBERT
+
+| Metric      | Value (Macro Avg) |
+|-------------|-------------------|
+| Precision   | 0.70              |
+| Recall      | 0.61              |
+| F1-Score    | 0.65              |
+
+**Highlights:**
+- 📌 Documentary (F1: 0.83)
+- 📌 Drama (F1: 0.71)
+- 📌 Comedy (F1: 0.66)
+
+---
+
+## 2. BiLSTM + Attention
+
+| Metric      | Value (Macro Avg) |
+|-------------|-------------------|
+| Precision   | 0.68              |
+| Recall      | 0.57              |
+| F1-Score    | 0.61              |
+
+**Strengths:**
+- 📌 Drama (F1: 0.68)
+- 📌 Documentary (F1: 0.78)
+
+---
+
+## 3. TF-IDF + XGBoost
+
+| Metric      | Value (Macro Avg) |
+|-------------|-------------------|
+| Precision   | 0.66              |
+| Recall      | 0.54              |
+| F1-Score    | 0.59              |
+
+**Effective for:**
+- 📌 Comedy (F1: 0.62)
+- 📌 Documentary (F1: 0.75)
+
+---
+
+## 4. Ensemble Model (Stacked Logistic Regression)
+
+| Metric      | Value (Macro Avg) |
+|-------------|-------------------|
+| Precision   | 0.71              |
+| Recall      | 0.52              |
+| F1-Score    | 0.59              |
+
+**Highlights:**
+- 📌 Documentary (F1: 0.86)
+- Benefited genres: Comedy, Drama, Horror
+- Fixed inconsistencies in Thriller and Sci-Fi
+- Most balanced across labels
+
+---
+
+# ✅ Conclusion and Recommendation
+
+- **DistilBERT** achieved the highest overall F1 due to its contextual understanding.
+- **BiLSTM + Attention** was a solid alternative with moderate cost.
+- **TF-IDF + XGBoost** was fast and interpretable.
+- **Ensemble model** provided robustness and consistency, especially for noisy or imbalanced classes.
+
+---
+
+# 🔍 Final Macro F1-Score Summary
+
+| Model                  | Macro F1 |
+|------------------------|----------|
+| DistilBERT             | 0.65     |
+| BiLSTM + Attention     | 0.61     |
+| TF-IDF + XGBoost       | 0.59     |
+| Ensemble (Stacked LR)  | 0.59     |
+
+📌 **Note**: Although Ensemble and XGBoost share the same macro F1 numerically, the ensemble yielded **better trade-offs** and **greater consistency** across genres.
+
+
 ## Analysis of Content Duration and Popularity
 In our research, we examined whether there was a significant relationship between duration and popularity across different audience groups. The popularity index was set at a threshold of 7 where movies with a popularity score of 7 or higher were classified as popular and those with a score below 7 as not popular. We then performed both Spearman and Pearson correlation analyses to explore the relationship between movie duration and popularity. The results presented in below showed that the correlation coefficients in both analyses did not exceed 0.25 indicating a very weak correlation. Based on these findings, we conclude that there is no significant relationship between movie duration and popularity within the analyzed audience groups.
 
