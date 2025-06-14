@@ -1,0 +1,971 @@
+title,norm_title,release_year,vote_average,vote_count,popularity,duration,duration_group_short,duration_group_medium,duration_group_long,audience_group_adult,audience_group_child,audience_group_teen
+GoodFellas,goodfellas,1990,8.456,13341,126.1394,145,0,0,1,0,0,1
+The Social Network,social network,2010,7.369,12403,78.1195,121,0,0,1,0,0,1
+The Karate Kid,karate kid,2010,6.549,6158,80.9417,140,0,0,1,0,1,0
+Gerald's Game,geralds game,2017,6.394,3715,65.1805,104,0,1,0,1,0,0
+Until Dawn,until dawn,2025,6.5,119,74.0448,103,0,1,0,1,0,0
+The Girl on the Train,girl on the train,2016,6.4,5778,73.9093,112,0,1,0,1,0,0
+Good Time,good time,2017,7.2,2886,60.6533,102,0,1,0,0,0,1
+Snow White,snow white,2025,4.5,605,57.1051,109,0,1,0,0,1,0
+Moonlight,moonlight,2016,7.373,7165,47.6157,111,0,1,0,0,0,1
+Angel Has Fallen,angel has fallen,2019,6.594,3604,55.8201,122,0,0,1,0,0,1
+Avengers: Infinity War,avengers infinity war,2018,8.236,30480,44.9429,149,0,0,1,0,0,1
+The Room,room,2003,4.01,1422,42.6065,99,0,1,0,0,0,1
+The Amateur,amateur,2025,6.67,229,47.0033,123,0,0,1,1,0,0
+Once Upon a Time in the West,once upon a time in the west,1968,8.281,4509,39.4405,166,0,0,1,0,0,1
+xXx,xxx,2002,5.94,4405,40.362,124,0,0,1,0,0,1
+The Matrix,matrix,1999,8.225,26327,35.6494,136,0,0,1,0,0,1
+Beauty and the Beast,beauty and the beast,2017,6.971,15610,23.349,129,0,0,1,0,0,1
+Schindler's List,schindlers list,1993,8.564,16404,29.5538,195,0,0,1,0,0,1
+Balto,balto,1995,7.306,2071,21.6834,78,1,0,0,0,1,0
+Twilight,twilight,2008,6.288,13775,26.8664,122,0,0,1,0,0,1
+Inception,inception,2010,8.368,37421,25.8168,148,0,0,1,0,0,1
+Coraline,coraline,2009,7.892,8359,26.5783,100,0,1,0,0,1,0
+Prey,prey,2022,7.694,6988,23.4457,100,0,1,0,1,0,0
+The Passion of the Christ,passion of the christ,2004,7.522,4832,22.7172,127,0,0,1,0,0,1
+Django Unchained,django unchained,2012,8.183,26730,22.1244,165,0,0,1,0,0,1
+Final Destination,final destination,2000,6.61,5841,24.304,98,0,1,0,0,0,1
+Black Panther,black panther,2018,7.373,22537,20.3923,135,0,0,1,0,0,1
+Spider-Man 3,spiderman 3,2007,6.437,14430,21.2141,139,0,0,1,0,0,1
+After,after,2019,7.122,8329,24.8076,106,0,1,0,0,0,1
+Catch Me If You Can,catch me if you can,2002,7.977,16060,22.7462,141,0,0,1,0,0,1
+Creep,creep,2014,6.4,1472,20.4918,82,1,0,0,0,0,1
+Grown Ups,grown ups,2010,6.392,6275,22.7488,102,0,1,0,0,0,1
+Shutter Island,shutter island,2010,8.2,24495,20.7652,138,0,0,1,0,0,1
+How to Train Your Dragon 2,how to train your dragon 2,2014,7.673,9800,20.7449,102,0,1,0,0,1,0
+Teenage Mutant Ninja Turtles,teenage mutant ninja turtles,2014,5.911,6878,19.4773,101,0,1,0,0,1,0
+The Tomorrow War,tomorrow war,2021,7.511,3664,22.8217,138,0,0,1,0,0,1
+Knives Out,knives out,2019,7.8,12816,21.4419,131,0,0,1,0,0,1
+The Lord of the Rings: The Return of the King,lord of the rings the return of the king,2003,8.483,25028,20.8943,201,0,0,1,0,0,1
+Rita,rita,2024,6.643,14,21.9381,113,0,1,0,1,0,0
+The Two Popes,two popes,2019,7.5,2931,17.1476,125,0,0,1,0,0,1
+The Flash,flash,2023,6.656,4513,18.4704,144,0,0,1,0,0,1
+The Gardener,gardener,2025,6.301,133,21.9748,110,0,1,0,0,0,1
+Final Destination 3,final destination 3,2006,6.1,4011,20.2302,92,0,1,0,0,0,1
+The Crow,crow,2024,5.854,1045,20.4095,111,0,1,0,0,0,1
+Flipped,flipped,2010,8.026,3114,21.3083,89,1,0,0,0,1,0
+Below Her Mouth,below her mouth,2017,6.801,1225,19.4665,92,0,1,0,1,0,0
+The Conjuring,conjuring,2013,7.541,11810,20.9544,112,0,1,0,0,0,1
+Pulp Fiction,pulp fiction,1994,8.49,28630,18.8789,154,0,0,1,0,0,1
+The Matrix Reloaded,matrix reloaded,2003,7.056,11233,17.1006,138,0,0,1,0,0,1
+Den of Thieves,den of thieves,2018,6.844,3093,20.1464,140,0,0,1,0,0,1
+A Complete Unknown,complete unknown,2024,7.153,927,19.9182,140,0,0,1,0,0,1
+The Thing,thing,1982,8.068,7265,15.3062,109,0,1,0,0,0,1
+Aliens,aliens,1986,7.952,10079,18.573,137,0,0,1,1,0,0
+Circle,circle,2015,6.021,1997,15.8632,86,1,0,0,1,0,0
+The Lord of the Rings: The Two Towers,lord of the rings the two towers,2002,8.404,22532,18.9825,179,0,0,1,0,0,1
+Troy,troy,2004,7.163,10430,18.0873,163,0,0,1,1,0,0
+Thor: Ragnarok,thor ragnarok,2017,7.584,21099,15.4783,131,0,0,1,0,0,1
+Jaws,jaws,1975,7.664,10732,17.5345,124,0,0,1,0,1,0
+The Twilight Saga: Breaking Dawn - Part 2,twilight saga breaking dawn part 2,2012,6.463,9027,18.3844,115,0,1,0,0,0,1
+Kung Fu Panda,kung fu panda,2008,7.299,11892,18.8916,90,0,1,0,0,1,0
+Manchester by the Sea,manchester by the sea,2016,7.546,5978,13.7531,138,0,0,1,0,0,1
+The Da Vinci Code,da vinci code,2006,6.726,9514,17.4588,149,0,0,1,0,0,1
+Brave,brave,2012,7.021,13574,17.9447,93,0,1,0,1,0,0
+Scream,scream,2022,6.668,3451,17.216,114,0,1,0,1,0,0
+Spider-Man: Into the Spider-Verse,spiderman into the spiderverse,2018,8.397,16102,18.9062,117,0,1,0,0,1,0
+Homefront,homefront,2013,6.94,3574,17.7956,100,0,1,0,0,0,1
+The Twilight Saga: Breaking Dawn - Part 1,twilight saga breaking dawn part 1,2011,6.197,8906,18.1438,117,0,1,0,0,0,1
+Shooter,shooter,2007,7.1,5047,16.6873,124,0,0,1,0,0,1
+Monster,monster,2023,7.971,677,19.4771,125,0,0,1,1,0,0
+Hotel Transylvania,hotel transylvania,2012,6.958,8755,18.2736,91,0,1,0,0,1,0
+Taken,taken,2008,7.396,11461,17.6801,94,0,1,0,0,0,1
+Train to Busan,train to busan,2016,7.75,7739,19.6389,118,0,1,0,1,0,0
+Last Breath,last breath,2025,6.9,237,18.1891,93,0,1,0,1,0,0
+Final Destination 2,final destination 2,2003,6.259,4225,17.0926,90,0,1,0,0,0,1
+Grease,grease,1978,7.38,7346,17.6247,110,0,1,0,0,1,0
+The Help,help,2011,8.207,8526,15.7311,146,0,0,1,0,0,1
+The Pianist,pianist,2002,8.378,9495,17.7074,150,0,0,1,0,0,1
+Men in Black,men in black,1997,7.2,14048,18.2229,98,0,1,0,0,0,1
+Tarzan,tarzan,1999,7.4,6912,17.4088,88,1,0,0,0,1,0
+Indiana Jones and the Last Crusade,indiana jones and the last crusade,1989,7.847,10397,16.5092,127,0,0,1,0,0,1
+Midsommar,midsommar,2019,7.2,7384,18.1396,147,0,0,1,0,0,1
+The Kingdom,kingdom,2024,7.098,46,14.8976,108,0,1,0,1,0,0
+The Pursuit of Happyness,pursuit of happyness,2006,7.9,10057,18.4469,117,0,1,0,0,0,1
+Soul,soul,2020,8.11,10742,16.5262,101,0,1,0,1,0,0
+Scary Movie,scary movie,2000,6.364,7157,16.1096,88,1,0,0,0,0,1
+Deep Water,deep water,2022,5.827,1453,15.8622,116,0,1,0,1,0,0
+Real Steel,real steel,2011,7.048,8562,16.3473,127,0,0,1,0,0,1
+Fall,fall,2022,7.144,4109,15.8765,107,0,1,0,1,0,0
+Inglourious Basterds,inglourious basterds,2009,8.215,22817,18.5608,153,0,0,1,0,0,1
+American History X,american history x,1998,8.337,11844,17.7586,119,0,1,0,0,0,1
+Kung Fu Panda 2,kung fu panda 2,2011,7.038,7384,15.1194,91,0,1,0,0,1,0
+Joker,joker,2019,8.138,26398,15.9627,122,0,0,1,0,1,0
+The Intouchables,intouchables,2011,8.272,17582,15.4566,113,0,1,0,0,0,1
+10 Things I Hate About You,10 things i hate about you,1999,7.594,8346,14.9756,97,0,1,0,0,0,1
+Bad Boys,bad boys,1995,6.819,6540,16.0419,119,0,1,0,0,0,1
+Superbad,superbad,2007,7.256,7512,16.4539,113,0,1,0,0,0,1
+Black Hawk Down,black hawk down,2001,7.388,5915,15.3792,145,0,0,1,0,0,1
+Prometheus,prometheus,2012,6.575,12526,15.3327,124,0,0,1,0,0,1
+Psycho,psycho,1960,8.4,10333,14.3791,109,0,1,0,1,0,0
+Limitless,limitless,2011,7.193,10830,15.3711,105,0,1,0,0,1,0
+Die Hard,die hard,1988,7.798,11477,14.283,132,0,0,1,0,0,1
+The Matrix Revolutions,matrix revolutions,2003,6.734,10137,13.7125,129,0,0,1,0,0,1
+Wind River,wind river,2017,7.436,5358,13.8121,107,0,1,0,0,0,1
+Angels & Demons,angels demons,2009,6.716,6928,14.3418,138,0,0,1,0,0,1
+Armageddon,armageddon,1998,6.836,8120,14.2845,151,0,0,1,0,0,1
+Beautiful Boy,beautiful boy,2018,7.6,2637,15.6055,119,0,1,0,0,0,1
+The Island,island,2023,6.199,73,16.4031,93,0,1,0,0,0,1
+Coherence,coherence,2013,7.236,3033,16.7741,89,1,0,0,0,0,1
+Basic Instinct,basic instinct,1992,6.932,4021,12.1988,128,0,0,1,0,0,1
+The Girl with the Dragon Tattoo,girl with the dragon tattoo,2011,7.376,7145,13.9051,158,0,0,1,0,0,1
+Indiana Jones and the Temple of Doom,indiana jones and the temple of doom,1984,7.296,9508,14.4404,118,0,1,0,0,1,0
+Swarm,swarm,2023,4.5,2,32.5951,106,0,1,0,0,0,1
+Extraction,extraction,2020,7.316,6213,15.8473,116,0,1,0,0,0,1
+Rampage,rampage,2018,6.457,7176,14.6112,107,0,1,0,0,0,1
+Jupiter Ascending,jupiter ascending,2015,5.458,6823,12.6275,127,0,0,1,0,0,1
+Madagascar 3: Europe's Most Wanted,madagascar 3 europes most wanted,2012,6.611,6255,13.5238,93,0,1,0,0,1,0
+2012,2012,2009,5.851,12136,16.034,158,0,0,1,0,0,1
+How the Grinch Stole Christmas,how the grinch stole christmas,2000,6.774,7769,14.5402,104,0,1,0,0,1,0
+There Will Be Blood,there will be blood,2007,8.071,6808,14.6253,158,0,0,1,0,0,1
+The Vigilante,vigilante,2023,5.957,23,15.9519,100,0,1,0,0,0,1
+Her,her,2013,7.85,14526,15.4278,126,0,0,1,0,0,1
+Legally Blonde,legally blonde,2001,6.791,4146,15.4692,96,0,1,0,0,0,1
+Hotel Transylvania 3: Summer Vacation,hotel transylvania 3 summer vacation,2018,6.853,4493,14.0198,97,0,1,0,0,1,0
+Charlie and the Chocolate Factory,charlie and the chocolate factory,2005,7.042,15445,17.5387,115,0,1,0,0,1,0
+Rush,rush,2013,7.723,7291,14.4532,123,0,0,1,0,0,1
+Murder on the Orient Express,murder on the orient express,2017,6.702,10110,13.8259,114,0,1,0,0,1,0
+The Longest Yard,longest yard,2005,6.666,3462,12.5558,113,0,1,0,0,0,1
+Cinderella,cinderella,2015,6.825,7151,14.3892,105,0,1,0,0,1,0
+Casino Royale,casino royale,2006,7.558,10943,12.2334,144,0,0,1,0,0,1
+From Dusk Till Dawn,from dusk till dawn,1996,7.028,6058,13.7593,108,0,1,0,1,0,0
+Bad Influence,bad influence,2025,7.8,9,16.3247,106,0,1,0,0,0,1
+Lolita,lolita,1997,7.14,1834,14.0174,137,0,0,1,0,0,1
+Ne Zha,ne zha,2019,7.9,509,14.0907,110,0,1,0,0,0,1
+The Intern,intern,2015,7.221,6848,14.6761,121,0,0,1,0,0,1
+The Founder,founder,2016,7.131,5061,14.0611,115,0,1,0,0,0,1
+Desire,desire,2011,6.291,1307,14.5408,103,0,1,0,1,0,0
+Rango,rango,2011,6.872,6656,13.8587,112,0,1,0,0,1,0
+Bad Boys II,bad boys ii,2003,6.647,5602,13.2882,146,0,0,1,0,0,1
+The House,house,2022,6.1,96,14.6882,89,1,0,0,0,0,1
+Van Helsing,van helsing,2004,6.375,6162,13.3365,132,0,0,1,1,0,0
+V for Vendetta,v for vendetta,2006,7.898,14780,13.3759,132,0,0,1,0,0,1
+The Voyeurs,voyeurs,2021,6.56,1003,14.293,117,0,1,0,0,0,1
+Drive,drive,2011,7.6,12858,13.6789,100,0,1,0,0,0,1
+City of God,city of god,2002,8.429,7618,13.3931,129,0,0,1,0,0,1
+The Ritual,ritual,2017,6.264,3107,13.5006,94,0,1,0,1,0,0
+The Ring,ring,2002,6.7,6291,12.7588,115,0,1,0,0,0,1
+Platoon,platoon,1986,7.746,4688,13.1416,120,0,1,0,0,0,1
+Terminator Salvation,terminator salvation,2009,6.061,6600,12.1156,115,0,1,0,0,0,1
+Turbo,turbo,2013,6.236,3422,11.7617,96,0,1,0,0,1,0
+The Bad Guys,bad guys,2022,7.543,2147,13.0058,100,0,1,0,1,0,0
+Event Horizon,event horizon,1997,6.541,2953,12.8905,95,0,1,0,0,0,1
+The Naked Gun: From the Files of Police Squad!,naked gun from the files of police squad,1988,7.258,3865,12.0455,86,1,0,0,0,0,1
+Les Misérables,les misérables,2012,7.319,5346,12.2405,158,0,0,1,0,0,1
+Bee Movie,bee movie,2007,6.024,4955,13.5212,91,0,1,0,0,1,0
+Kill Bill: Vol. 2,kill bill vol 2,2004,7.875,14219,12.3376,136,0,0,1,0,0,1
+Snowpiercer,snowpiercer,2013,6.906,9796,14.4957,127,0,0,1,0,0,1
+Hook,hook,1991,6.836,5400,12.0961,141,0,0,1,1,0,0
+Total Recall,total recall,1990,7.309,5963,12.8479,113,0,1,0,0,0,1
+Knight and Day,knight and day,2010,6.221,4585,12.7278,109,0,1,0,0,0,1
+The Hunt,hunt,2020,6.632,3332,13.0672,90,0,1,0,0,1,0
+The Karate Kid Part II,karate kid part ii,1986,6.304,2260,12.2993,113,0,1,0,0,1,0
+The Heartbreak Kid,heartbreak kid,2007,5.739,1638,13.543,116,0,1,0,0,0,1
+Into the Wild,into the wild,2007,7.797,9671,12.6314,148,0,0,1,0,0,1
+The Little Mermaid,little mermaid,1989,7.35,8030,13.7406,83,1,0,0,0,1,0
+After We Collided,after we collided,2020,7.171,5373,13.2349,105,0,1,0,0,0,1
+Then Came You,then came you,2018,7.436,509,10.5098,97,0,1,0,1,0,0
+Love & Other Drugs,love other drugs,2010,7.046,5235,11.0527,112,0,1,0,0,0,1
+Solo: A Star Wars Story,solo a star wars story,2018,6.558,8744,11.4287,135,0,0,1,0,0,1
+Chappie,chappie,2015,6.787,8056,11.5208,120,0,1,0,0,0,1
+The Game,game,1997,7.568,6796,13.5004,129,0,0,1,0,0,1
+Ocean's Eleven,oceans eleven,2001,7.447,11845,13.9741,116,0,1,0,0,1,0
+Planet of the Apes,planet of the apes,1968,7.643,3656,11.8687,112,0,1,0,0,0,1
+Nocturnal Animals,nocturnal animals,2016,7.423,7922,10.3118,117,0,1,0,0,0,1
+The Platform,platform,2019,6.967,7343,13.9068,95,0,1,0,0,0,1
+The Terminal,terminal,2004,7.347,8091,11.5279,128,0,0,1,0,0,1
+The Impossible,impossible,2012,7.364,6380,10.5044,114,0,1,0,0,0,1
+Tropic Thunder,tropic thunder,2008,6.688,6388,11.9854,107,0,1,0,0,0,1
+Scream 3,scream 3,2000,5.986,3698,11.7603,116,0,1,0,0,0,1
+The Secret Life of Pets 2,secret life of pets 2,2019,6.958,3129,11.9746,86,1,0,0,0,1,0
+Legend,legend,2015,7.054,3973,12.3261,132,0,0,1,0,0,1
+Click,click,2006,6.294,7154,11.6143,107,0,1,0,0,0,1
+Pretty Woman,pretty woman,1990,7.464,8486,12.4161,120,0,1,0,0,0,1
+The Lighthouse,lighthouse,2019,7.501,5090,12.0942,109,0,1,0,0,0,1
+Mortal Kombat,mortal kombat,2021,7.018,5968,11.3292,110,0,1,0,0,0,1
+Daredevil,daredevil,2003,5.273,5174,10.633,103,0,1,0,0,0,1
+Atonement,atonement,2007,7.642,4355,14.6117,123,0,0,1,0,0,1
+The Autopsy of Jane Doe,autopsy of jane doe,2016,6.814,4375,12.5384,86,1,0,0,0,0,1
+Million Dollar Baby,million dollar baby,2004,7.955,9814,11.2106,132,0,0,1,0,0,1
+The Polar Express,polar express,2004,6.72,6486,11.8425,100,0,1,0,0,1,0
+The Smurfs,smurfs,2011,5.766,3808,10.2591,102,0,1,0,0,1,0
+About Time,about time,2013,7.916,8720,13.7797,123,0,0,1,0,0,1
+Taxi Driver,taxi driver,1976,8.134,12622,14.1317,114,0,1,0,1,0,0
+Scary Movie 5,scary movie 5,2013,4.8,2843,10.6311,88,1,0,0,0,0,1
+Love Lies Bleeding,love lies bleeding,2024,6.566,772,12.4481,104,0,1,0,0,0,1
+Highlander,highlander,1986,6.874,2686,10.6138,116,0,1,0,0,0,1
+Déjà Vu,déjà vu,2006,6.868,4945,11.3444,126,0,0,1,0,0,1
+Cloverfield,cloverfield,2008,6.693,7274,11.0904,84,1,0,0,0,0,1
+Enola Holmes,enola holmes,2020,7.257,6161,10.7892,123,0,0,1,0,0,1
+The Perks of Being a Wallflower,perks of being a wallflower,2012,7.8,10655,10.6195,103,0,1,0,0,0,1
+Aftermath,aftermath,2024,6.2,134,12.3975,95,0,1,0,1,0,0
+Monster House,monster house,2006,6.689,4060,11.1738,91,0,1,0,0,1,0
+The Croods,croods,2013,6.922,7181,13.3286,98,0,1,0,0,1,0
+Silver Linings Playbook,silver linings playbook,2012,7.145,12142,11.1139,122,0,0,1,0,0,1
+The Departed,departed,2006,8.159,15284,11.8204,151,0,0,1,0,0,1
+Mad Max,mad max,1979,6.677,4579,10.4916,91,0,1,0,0,0,1
+Tears of the Sun,tears of the sun,2003,6.886,2418,11.7892,121,0,0,1,0,0,1
+Naruto Shippuden the Movie,naruto shippuden the movie,2007,7.4,1024,11.2906,94,0,1,0,0,1,0
+Scorned,scorned,1993,5.1,36,12.0623,100,0,1,0,0,0,1
+Men in Black II,men in black ii,2002,6.373,10097,11.2077,88,1,0,0,0,0,1
+Godzilla,godzilla,1998,5.631,3975,10.7897,138,0,0,1,0,0,1
+The Princess and the Frog,princess and the frog,2009,7.22,5760,12.7301,98,0,1,0,0,1,0
+Hunt for the Wilderpeople,hunt for the wilderpeople,2016,7.647,2126,8.9254,101,0,1,0,0,0,1
+Seventh Son,seventh son,2014,5.517,2523,10.0789,102,0,1,0,0,0,1
+Easy A,easy a,2010,6.8,7008,10.6634,93,0,1,0,0,0,1
+S.W.A.T.,swat,2003,6.159,2545,9.5987,117,0,1,0,0,0,1
+Ferris Bueller's Day Off,ferris buellers day off,1986,7.575,5024,10.5075,103,0,1,0,0,0,1
+The Mist,mist,2007,6.934,5379,12.0012,126,0,0,1,1,0,0
+Kill Bill: Vol. 1,kill bill vol 1,2003,8.0,17825,11.8996,111,0,1,0,0,0,1
+Wanted,wanted,2008,6.524,7191,11.4256,110,0,1,0,0,0,1
+Nacho Libre,nacho libre,2006,6.484,1696,10.41,92,0,1,0,0,1,0
+The Conjuring 2,conjuring 2,2016,7.3,8568,12.8715,134,0,0,1,0,0,1
+Open Season,open season,2006,6.2,2802,9.5143,86,1,0,0,0,1,0
+The Big Sick,big sick,2017,7.3,2477,10.552,120,0,1,0,0,0,1
+GoldenEye,goldeneye,1995,6.889,3998,9.7258,130,0,0,1,0,0,1
+The Burning,burning,1981,6.2,415,9.6867,91,0,1,0,1,0,0
+Peter Rabbit,peter rabbit,2018,6.694,1812,9.1445,93,0,1,0,0,1,0
+Sherlock Holmes,sherlock holmes,2009,7.214,14149,11.0106,129,0,0,1,0,0,1
+Tinker Bell and the Legend of the NeverBeast,tinker bell and the legend of the neverbeast,2014,7.349,1130,10.5338,77,1,0,0,0,1,0
+Surf's Up,surfs up,2007,6.5,2559,10.3107,85,1,0,0,0,1,0
+Five Feet Apart,five feet apart,2019,8.239,5710,11.2191,116,0,1,0,0,0,1
+Austin Powers in Goldmember,austin powers in goldmember,2002,5.992,3194,9.86,94,0,1,0,0,0,1
+Spartacus,spartacus,1960,7.538,2215,10.8839,197,0,0,1,1,0,0
+The Sum of All Fears,sum of all fears,2002,6.357,1770,9.966,124,0,0,1,0,0,1
+Monty Python and the Holy Grail,monty python and the holy grail,1975,7.803,5965,12.6935,91,0,1,0,0,1,0
+Paprika,paprika,1991,7.1,527,10.8249,116,0,1,0,0,1,0
+The Jungle Book,jungle book,1967,7.278,6346,11.0108,78,1,0,0,0,1,0
+Trainspotting,trainspotting,1996,7.963,9854,9.7158,94,0,1,0,0,0,1
+Carrie,carrie,1976,7.316,3956,9.8494,98,0,1,0,0,0,1
+No Strings Attached,no strings attached,2011,6.297,4756,10.0159,107,0,1,0,0,0,1
+The Twilight Saga: Eclipse,twilight saga eclipse,2010,6.206,8889,11.5757,124,0,0,1,0,0,1
+The Smurfs 2,smurfs 2,2013,5.744,2238,9.1041,104,0,1,0,0,1,0
+American Psycho,american psycho,2000,7.404,11358,11.7656,102,0,1,0,0,0,1
+Darkest Hour,darkest hour,2017,7.351,5201,9.0746,125,0,0,1,0,0,1
+The Other Guys,other guys,2010,6.309,4273,12.2557,116,0,1,0,0,0,1
+Warrior,warrior,2011,7.84,4675,10.3101,140,0,0,1,1,0,0
+Terrifier,terrifier,2018,6.338,2665,11.5397,84,1,0,0,1,0,0
+Blue Valentine,blue valentine,2010,6.947,3311,10.384,112,0,1,0,0,0,1
+Donnie Brasco,donnie brasco,1997,7.535,4548,10.3157,147,0,0,1,0,0,1
+Coming 2 America,coming 2 america,2021,6.387,2268,10.0114,110,0,1,0,0,0,1
+Austin Powers: The Spy Who Shagged Me,austin powers the spy who shagged me,1999,6.279,3408,9.496,95,0,1,0,0,0,1
+Philadelphia,philadelphia,1993,7.713,4354,8.9939,126,0,0,1,0,0,1
+Insidious,insidious,2011,6.942,6918,10.8964,102,0,1,0,0,0,1
+The Foreigner,foreigner,2017,6.969,2711,9.9593,113,0,1,0,0,0,1
+Tom Clancy's Without Remorse,tom clancys without remorse,2021,6.969,2493,11.4152,109,0,1,0,0,0,1
+Brothers,brothers,2024,6.013,269,10.8908,89,1,0,0,0,0,1
+The Lovely Bones,lovely bones,2009,7.068,4712,9.3367,136,0,0,1,0,0,1
+Dances with Wolves,dances with wolves,1990,7.8,4343,10.368,181,0,0,1,0,0,1
+The Kissing Booth,kissing booth,2018,7.192,7267,10.5533,105,0,1,0,0,0,1
+The Flintstones,flintstones,1994,5.342,2486,9.0054,91,0,1,0,0,1,0
+Cloud Atlas,cloud atlas,2012,6.886,7180,10.3126,172,0,0,1,0,0,1
+Green Lantern,green lantern,2011,5.173,7332,9.1455,114,0,1,0,0,0,1
+The Bodyguard,bodyguard,1992,6.698,3024,9.0725,130,0,0,1,0,0,1
+Coach Carter,coach carter,2005,7.582,3047,9.2652,136,0,0,1,0,0,1
+Charlie's Angels: Full Throttle,charlies angels full throttle,2003,5.48,3100,9.8188,106,0,1,0,0,0,1
+Missing,missing,2023,7.431,1109,9.4959,111,0,1,0,0,0,1
+Scream 2,scream 2,1997,6.494,4313,8.6345,120,0,1,0,0,0,1
+The Descent,descent,2005,7.0,4013,10.4463,99,0,1,0,0,0,1
+Immortals,immortals,2011,6.024,2630,9.1261,110,0,1,0,1,0,0
+Eat Pray Love,eat pray love,2010,6.2,2477,8.7132,133,0,0,1,0,0,1
+The Spiderwick Chronicles,spiderwick chronicles,2008,6.655,2690,10.4465,95,0,1,0,0,1,0
+The Wandering Earth,wandering earth,2019,6.642,1011,10.1381,126,0,0,1,1,0,0
+Blow,blow,2001,7.362,4365,9.6103,124,0,0,1,0,0,1
+The Call of the Wild,call of the wild,2020,7.545,3794,10.3967,100,0,1,0,0,1,0
+Hitch,hitch,2005,6.566,5890,10.0054,118,0,1,0,0,0,1
+Army of the Dead,army of the dead,2021,6.229,4118,9.0358,148,0,0,1,0,0,1
+Chicken Little,chicken little,2005,5.898,3955,9.185,81,1,0,0,0,1,0
+Magnolia,magnolia,1999,7.724,3666,9.2293,189,0,0,1,0,0,1
+Bird Box,bird box,2018,6.832,10098,9.4273,124,0,0,1,0,0,1
+The Artist,artist,2011,7.456,3310,9.3843,100,0,1,0,0,0,1
+Battle: Los Angeles,battle los angeles,2011,5.805,3510,8.5339,116,0,1,0,0,0,1
+Revolutionary Road,revolutionary road,2008,6.986,3890,9.4095,119,0,1,0,0,0,1
+To All the Boys I've Loved Before,to all the boys ive loved before,2018,7.607,8495,9.5812,100,0,1,0,0,0,1
+One Day,one day,2011,7.422,4332,8.869,107,0,1,0,0,1,0
+Sliver,sliver,1993,5.503,729,9.6963,107,0,1,0,0,0,1
+Desperado,desperado,1995,6.926,2923,9.1048,104,0,1,0,0,0,1
+RED,red,2010,6.697,6807,9.5035,111,0,1,0,0,0,1
+Triple Frontier,triple frontier,2019,6.3,3297,9.7176,125,0,0,1,0,0,1
+The Texas Chainsaw Massacre,texas chainsaw massacre,2003,6.282,2703,9.6651,98,0,1,0,0,0,1
+The Ballad of Buster Scruggs,ballad of buster scruggs,2018,7.137,4131,10.3086,132,0,0,1,0,0,1
+Safe,safe,2012,6.485,2511,10.1706,94,0,1,0,1,0,0
+What Happened to Monday,what happened to monday,2017,7.162,6159,10.4478,123,0,0,1,1,0,0
+El Camino: A Breaking Bad Movie,el camino a breaking bad movie,2019,6.96,5049,10.0526,123,0,0,1,1,0,0
+Wish Dragon,wish dragon,2021,7.884,1374,8.7122,99,0,1,0,0,1,0
+Unstoppable,unstoppable,2024,4.9,140,9.9622,123,0,0,1,1,0,0
+A Haunted House 2,haunted house 2,2014,6.156,1488,10.0773,87,1,0,0,0,0,1
+Ex Machina,ex machina,2015,7.572,13512,10.9761,108,0,1,0,0,0,1
+Tomorrow Never Dies,tomorrow never dies,1997,6.361,3170,9.0183,119,0,1,0,0,0,1
+Last Action Hero,last action hero,1993,6.471,2776,8.5656,130,0,0,1,0,0,1
+The Lincoln Lawyer,lincoln lawyer,2011,7.2,3362,9.2418,119,0,1,0,0,0,1
+Almost Famous,almost famous,2000,7.5,2845,8.8082,124,0,0,1,0,0,1
+Four Weddings and a Funeral,four weddings and a funeral,1994,6.768,2774,9.1386,117,0,1,0,0,0,1
+(500) Days of Summer,days of summer,2009,7.3,10395,10.7796,95,0,1,0,0,0,1
+Austin Powers: International Man of Mystery,austin powers international man of mystery,1997,6.57,3509,9.0503,94,0,1,0,0,0,1
+Truth or Dare,truth or dare,2018,5.939,4066,8.9346,101,0,1,0,1,0,0
+The Body,body,1974,4.4,10,10.3293,89,1,0,0,0,0,1
+Rocky,rocky,1976,7.788,8062,10.0158,120,0,1,0,0,1,0
+A Whisker Away,whisker away,2020,7.901,1408,8.9349,104,0,1,0,0,1,0
+Madagascar: Escape 2 Africa,madagascar escape 2 africa,2008,6.507,7041,10.2395,89,1,0,0,0,1,0
+Minority Report,minority report,2002,7.347,8942,10.5468,145,0,0,1,0,0,1
+Tremors,tremors,1990,6.911,3332,9.4051,96,0,1,0,0,0,1
+Mary Poppins Returns,mary poppins returns,2018,6.511,3348,9.3163,131,0,0,1,0,1,0
+The Twilight Saga: New Moon,twilight saga new moon,2009,5.992,9351,9.5083,131,0,0,1,0,0,1
+Movie 43,movie 43,2013,4.611,2365,9.2853,94,0,1,0,0,0,1
+Marriage Story,marriage story,2019,7.7,7069,9.0112,137,0,0,1,0,0,1
+Life,life,2017,6.441,7492,11.5341,104,0,1,0,1,0,0
+Big Miracle,big miracle,2012,6.692,500,7.4496,107,0,1,0,0,1,0
+Retribution,retribution,2023,6.599,1207,10.0528,91,0,1,0,1,0,0
+Fracture,fracture,2007,7.269,4004,9.5891,113,0,1,0,0,0,1
+21,21,2008,6.688,4753,8.7492,123,0,0,1,0,0,1
+In Bruges,in bruges,2008,7.491,5312,9.5527,108,0,1,0,0,0,1
+The Machinist,machinist,2004,7.526,5710,10.0996,101,0,1,0,0,0,1
+The Order,order,2024,6.573,587,9.5291,116,0,1,0,1,0,0
+The Mask of Zorro,mask of zorro,1998,6.576,4079,9.568,136,0,0,1,0,0,1
+Lincoln,lincoln,2012,6.855,3848,9.2718,149,0,0,1,0,0,1
+Nightcrawler,nightcrawler,2014,7.705,11026,9.9579,118,0,1,0,0,0,1
+Anna,anna,2019,6.704,2776,8.9419,119,0,1,0,0,0,1
+Mars Attacks!,mars attacks,1996,6.414,5555,8.768,106,0,1,0,0,0,1
+Pan's Labyrinth,pans labyrinth,2006,7.752,10756,10.157,118,0,1,0,0,0,1
+Terminator 3: Rise of the Machines,terminator 3 rise of the machines,2003,6.166,6788,8.8724,109,0,1,0,0,0,1
+Charlie's Angels,charlies angels,2019,6.414,3008,8.3975,118,0,1,0,0,0,1
+Kung Fu Hustle,kung fu hustle,2004,7.5,2889,9.0822,99,0,1,0,0,0,1
+Primal Fear,primal fear,1996,7.657,3487,10.0535,129,0,0,1,0,0,1
+50 First Dates,50 first dates,2004,6.866,7326,7.8633,99,0,1,0,0,0,1
+Murder Mystery,murder mystery,2019,6.271,4521,9.4435,97,0,1,0,0,0,1
+True Grit,true grit,2010,7.307,5360,9.7039,110,0,1,0,0,1,0
+We Need to Talk About Kevin,we need to talk about kevin,2011,7.547,2875,8.28,113,0,1,0,0,0,1
+Anger Management,anger management,2003,6.2,3217,9.0234,106,0,1,0,0,0,1
+Hugo,hugo,2011,7.171,7311,8.5234,126,0,0,1,0,1,0
+Clear and Present Danger,clear and present danger,1994,6.651,1544,8.3581,141,0,0,1,0,0,1
+The Witch: Part 1. The Subversion,witch part 1 the subversion,2018,7.9,623,8.9115,125,0,0,1,1,0,0
+Rain Man,rain man,1988,7.754,6543,9.2499,134,0,0,1,0,0,1
+The Witch,witch,2016,7.0,7183,10.1895,92,0,1,0,0,0,1
+John Carter,john carter,2012,6.333,5718,8.7188,132,0,0,1,0,0,1
+Borat Subsequent Moviefilm,borat subsequent moviefilm,2020,6.443,2621,8.7048,96,0,1,0,0,0,1
+Mirror Mirror,mirror mirror,2012,5.925,3184,8.0646,106,0,1,0,0,1,0
+The Invisible Guest,invisible guest,2017,8.099,4655,9.892,107,0,1,0,0,0,1
+The Place Beyond the Pines,place beyond the pines,2013,6.974,4908,8.019,140,0,0,1,0,0,1
+The Elephant Man,elephant man,1980,8.0,3633,9.4366,124,0,0,1,0,1,0
+Pokémon the Movie: I Choose You!,pokémon the movie i choose you,2017,7.077,633,8.5954,98,0,1,0,0,1,0
+Air Force One,air force one,1997,6.481,3066,8.2879,124,0,0,1,0,0,1
+Dark Waters,dark waters,2019,7.543,2287,9.066,127,0,0,1,0,0,1
+Red Dawn,red dawn,2012,5.708,1645,8.6042,93,0,1,0,0,0,1
+Bolt,bolt,2008,6.528,6176,8.6559,98,0,1,0,0,1,0
+Hairspray,hairspray,2007,6.7,2510,8.0468,117,0,1,0,0,1,0
+Abyss,abyss,2025,6.4,20,10.4321,95,0,1,0,0,0,1
+Captain Fantastic,captain fantastic,2016,7.898,6510,8.8544,118,0,1,0,0,0,1
+Elektra,elektra,2005,5.0,2484,8.1088,97,0,1,0,0,0,1
+Boogie Nights,boogie nights,1997,7.628,3251,8.6409,156,0,0,1,0,0,1
+The Edge of Seventeen,edge of seventeen,2016,7.159,4090,8.1773,105,0,1,0,0,0,1
+Never Back Down,never back down,2008,6.77,2348,8.1107,115,0,1,0,0,0,1
+The Bucket List,bucket list,2007,7.185,3850,7.7958,97,0,1,0,0,0,1
+Cloudy with a Chance of Meatballs,cloudy with a chance of meatballs,2009,6.635,6075,9.3123,90,0,1,0,0,1,0
+Billy Elliot,billy elliot,2000,7.594,3901,8.3139,110,0,1,0,0,0,1
+Sisters,sisters,2015,6.0,1394,10.3858,118,0,1,0,1,0,0
+Due Date,due date,2010,6.383,5496,9.067,95,0,1,0,0,0,1
+The Trial of the Chicago 7,trial of the chicago 7,2020,7.688,3116,8.4821,130,0,0,1,0,0,1
+The World Is Not Enough,world is not enough,1999,6.276,3002,8.3679,128,0,0,1,0,0,1
+The Medium,medium,2021,7.0,659,8.7136,131,0,0,1,1,0,0
+From Paris with Love,from paris with love,2010,6.292,2077,14.3676,92,0,1,0,0,0,1
+Rosemary's Baby,rosemarys baby,1968,7.8,4037,8.3738,138,0,0,1,0,0,1
+Kiss the Girls,kiss the girls,1997,6.534,1708,8.1795,115,0,1,0,0,0,1
+Long Shot,long shot,2019,6.726,2733,7.5825,125,0,0,1,0,0,1
+The Little Things,little things,2021,6.332,2584,7.9799,128,0,0,1,1,0,0
+End of Watch,end of watch,2012,7.35,3340,8.5396,109,0,1,0,0,0,1
+Star Trek,star trek,2009,7.426,10012,9.5532,127,0,0,1,0,0,1
+Revenge,revenge,2018,6.471,1858,9.1434,109,0,1,0,1,0,0
+Hellboy,hellboy,2019,5.574,3495,8.2394,120,0,1,0,0,0,1
+Judge Dredd,judge dredd,1995,5.825,2533,7.9446,96,0,1,0,0,0,1
+Joy,joy,2015,6.546,4142,7.9928,124,0,0,1,1,0,0
+The Taking of Deborah Logan,taking of deborah logan,2014,6.508,1279,6.9962,90,0,1,0,0,0,1
+The Omen,omen,1976,7.408,2196,7.6646,111,0,1,0,0,0,1
+My Girl,my girl,1991,7.395,2134,8.6049,103,0,1,0,0,0,1
+Fractured,fractured,2019,6.737,2636,9.1642,101,0,1,0,1,0,0
+The Killer,killer,2023,6.573,2351,8.5079,118,0,1,0,1,0,0
+She's Out of My League,shes out of my league,2010,6.477,2192,7.9816,104,0,1,0,0,0,1
+The Mitchells vs. the Machines,mitchells vs the machines,2021,7.888,3040,9.6694,110,0,1,0,0,1,0
+Night Hunter,night hunter,2019,6.632,945,7.6087,95,0,1,0,0,0,1
+Borderline,borderline,2025,5.689,66,8.4089,94,0,1,0,0,0,1
+The Death of Stalin,death of stalin,2017,7.002,1941,7.9429,107,0,1,0,0,0,1
+Survivor,survivor,2015,5.671,1027,7.9399,96,0,1,0,0,0,1
+The Tourist,tourist,2010,6.182,5492,7.9529,103,0,1,0,0,0,1
+Deep Blue Sea,deep blue sea,1999,5.985,2483,7.5121,105,0,1,0,0,0,1
+Mr. Peabody & Sherman,mr peabody sherman,2014,6.7,2408,7.9636,92,0,1,0,0,1,0
+Panic Room,panic room,2002,6.785,5087,8.3961,111,0,1,0,0,0,1
+Incredibles 2,incredibles 2,2018,7.455,13047,8.8045,118,0,1,0,0,1,0
+Things Heard & Seen,things heard seen,2021,5.732,987,8.188,121,0,0,1,1,0,0
+Maria,maria,2024,6.462,302,7.7906,122,0,0,1,1,0,0
+Crash,crash,1996,6.4,1194,8.1258,100,0,1,0,0,0,1
+Goosebumps 2: Haunted Halloween,goosebumps 2 haunted halloween,2018,6.111,1550,7.5634,90,0,1,0,0,1,0
+Underworld: Awakening,underworld awakening,2012,6.327,4141,9.0343,88,1,0,0,0,0,1
+A Clockwork Orange,clockwork orange,1971,8.187,13161,7.1969,137,0,0,1,0,0,1
+Salome,salome,2023,10.0,1,8.9856,59,1,0,0,0,0,1
+The Last Boy Scout,last boy scout,1991,6.83,1966,7.2588,105,0,1,0,0,0,1
+Willow,willow,1988,7.014,1990,8.7631,126,0,0,1,0,1,0
+We Bought a Zoo,we bought a zoo,2011,6.804,2769,7.5825,124,0,0,1,0,1,0
+Date Night,date night,2010,6.098,2899,7.7339,88,1,0,0,0,0,1
+The Florida Project,florida project,2017,7.426,2857,7.948,112,0,1,0,0,0,1
+365 Days,365 days,2020,7.0,9155,8.7596,116,0,1,0,1,0,0
+The Cloverfield Paradox,cloverfield paradox,2018,5.617,3332,7.681,102,0,1,0,0,0,1
+Swordfish,swordfish,2001,6.249,2749,7.7315,99,0,1,0,0,0,1
+Bombshell,bombshell,2019,6.8,3032,7.7485,109,0,1,0,1,0,0
+The Apartment,apartment,1960,8.202,2410,7.9362,125,0,0,1,0,1,0
+A Family Affair,family affair,2024,5.795,633,7.8189,114,0,1,0,0,1,0
+Fireworks,fireworks,2017,6.6,345,7.4504,90,0,1,0,0,1,0
+Naruto Shippuden the Movie: The Lost Tower,naruto shippuden the movie the lost tower,2010,7.1,477,7.4741,85,1,0,0,0,0,1
+Indiana Jones and the Kingdom of the Crystal Skull,indiana jones and the kingdom of the crystal skull,2008,6.01,8515,8.5338,122,0,0,1,0,0,1
+The Irishman,irishman,2019,7.591,7022,9.2393,209,0,0,1,0,0,1
+Cliffhanger,cliffhanger,1993,6.5,2438,7.5216,112,0,1,0,0,0,1
+The Italian Job,italian job,2003,6.774,5647,7.903,110,0,1,0,0,1,0
+Poseidon,poseidon,2006,5.9,2172,7.8274,98,0,1,0,0,0,1
+Get Shorty,get shorty,1995,6.496,1091,7.0928,105,0,1,0,1,0,0
+The King,king,2019,7.162,3316,8.9642,140,0,0,1,0,0,1
+Klaus,klaus,2019,8.239,4254,7.6138,96,0,1,0,0,1,0
+Run,run,2020,7.248,2643,8.2426,90,0,1,0,0,0,1
+Burlesque,burlesque,2010,7.205,2266,8.4109,119,0,1,0,0,0,1
+Rocky IV,rocky iv,1985,7.081,4519,7.4672,91,0,1,0,0,1,0
+Dante's Peak,dantes peak,1997,6.209,1906,7.0686,108,0,1,0,0,0,1
+Life As We Know It,life as we know it,2010,6.907,3160,7.0334,114,0,1,0,0,0,1
+The Boy Who Harnessed the Wind,boy who harnessed the wind,2019,7.9,1718,7.3602,113,0,1,0,0,1,0
+Once Upon a Time in America,once upon a time in america,1984,8.409,5594,9.7053,229,0,0,1,0,0,1
+Stardust,stardust,2007,7.281,4153,7.6003,127,0,0,1,0,0,1
+Wild Wild West,wild wild west,1999,5.316,3369,7.3261,106,0,1,0,0,0,1
+Attack on Titan,attack on titan,2015,6.106,769,7.4815,98,0,1,0,1,0,0
+Fallen,fallen,1998,6.778,1471,7.5173,124,0,0,1,0,0,1
+The Flintstones in Viva Rock Vegas,flintstones in viva rock vegas,2000,4.779,764,5.8858,90,0,1,0,0,1,0
+Hush,hush,2016,6.729,4638,8.409,82,1,0,0,0,0,1
+The Manchurian Candidate,manchurian candidate,1962,7.526,736,7.9156,126,0,0,1,0,0,1
+Naruto the Movie: Ninja Clash in the Land of Snow,naruto the movie ninja clash in the land of snow,2004,7.232,570,7.1671,82,1,0,0,0,1,0
+Charlotte's Web,charlottes web,2006,6.218,1388,7.314,97,0,1,0,0,1,0
+Naruto Shippuden the Movie: Blood Prison,naruto shippuden the movie blood prison,2011,7.21,662,7.6532,108,0,1,0,0,0,1
+Collateral,collateral,2004,7.229,5771,7.6559,120,0,1,0,1,0,0
+He's All That,hes all that,2021,6.523,1399,7.6316,91,0,1,0,0,0,1
+The Marksman,marksman,2021,6.825,1628,7.8265,108,0,1,0,0,0,1
+The Devil All the Time,devil all the time,2020,7.205,3434,8.0034,138,0,0,1,0,0,1
+Do the Right Thing,do the right thing,1989,7.751,1838,6.9953,120,0,1,0,0,0,1
+Chloe,chloe,2010,6.109,1750,7.3612,96,0,1,0,0,0,1
+The Break-Up,breakup,2006,5.895,2703,8.141,106,0,1,0,0,0,1
+Ant-Man and the Wasp,antman and the wasp,2018,6.92,13539,9.0794,119,0,1,0,0,0,1
+The Phantom of the Opera,phantom of the opera,2004,7.3,1661,7.7378,141,0,0,1,0,0,1
+John Tucker Must Die,john tucker must die,2006,6.1,1396,6.8754,87,1,0,0,0,0,1
+Monster-in-Law,monsterinlaw,2005,6.221,1677,7.3425,101,0,1,0,0,0,1
+Little Nicky,little nicky,2000,5.851,1856,7.4887,90,0,1,0,0,0,1
+Sahara,sahara,2005,5.9,1521,6.8598,124,0,0,1,0,1,0
+Hachi: A Dog's Tale,hachi a dogs tale,2009,8.01,6814,7.6236,93,0,1,0,0,1,0
+We Can Be Heroes,we can be heroes,2020,6.005,780,8.2176,97,0,1,0,0,1,0
+Lionheart,lionheart,1990,6.55,1065,7.6221,105,0,1,0,0,1,0
+Bros,bros,2022,6.719,517,7.5121,115,0,1,0,0,0,1
+Vantage Point,vantage point,2008,6.398,2045,7.5024,90,0,1,0,0,0,1
+A Bridge Too Far,bridge too far,1977,7.2,843,7.1102,175,0,0,1,0,1,0
+The Bling Ring,bling ring,2013,5.424,3040,7.0483,90,0,1,0,0,0,1
+Waiting...,waiting,2005,6.247,892,7.5445,94,0,1,0,1,0,0
+Veronica,veronica,2017,6.226,1760,7.1426,105,0,1,0,1,0,0
+The Happytime Murders,happytime murders,2018,5.78,1023,6.9037,90,0,1,0,0,0,1
+The Nutty Professor,nutty professor,1996,5.6,2959,7.0991,95,0,1,0,0,0,1
+Clash of the Titans,clash of the titans,2010,5.912,6352,7.4957,106,0,1,0,0,0,1
+The Lives of Others,lives of others,2006,8.034,3784,7.6696,137,0,0,1,0,0,1
+In the Line of Fire,in the line of fire,1993,6.968,1642,7.0293,128,0,0,1,0,0,1
+Runaway Bride,runaway bride,1999,6.1,2036,7.0994,116,0,1,0,0,1,0
+The Green Hornet,green hornet,2011,5.584,3287,6.8921,119,0,1,0,0,0,1
+Bonnie and Clyde,bonnie and clyde,1967,7.5,1660,7.8388,111,0,1,0,0,0,1
+The Guilty,guilty,2021,6.427,2788,7.6481,91,0,1,0,1,0,0
+White Girl,white girl,2016,5.661,468,7.5567,88,1,0,0,1,0,0
+Stepfather 2,stepfather 2,1989,5.5,103,6.739,93,0,1,0,0,0,1
+Midnight Sun,midnight sun,2018,7.814,3467,7.173,91,0,1,0,0,0,1
+6 Underground,6 underground,2019,6.344,4856,7.8862,128,0,0,1,0,0,1
+It Comes at Night,it comes at night,2017,5.848,2419,5.5802,91,0,1,0,0,0,1
+Die Hard 2,die hard 2,1990,6.957,5977,7.1986,124,0,0,1,0,0,1
+Spy Kids 2: The Island of Lost Dreams,spy kids 2 the island of lost dreams,2002,5.639,2225,6.8623,100,0,1,0,0,1,0
+Unknown,unknown,2011,6.679,3930,7.4798,113,0,1,0,0,0,1
+Left Behind,left behind,2014,4.26,1321,7.3564,110,0,1,0,0,0,1
+Accepted,accepted,2006,6.4,1600,7.3437,93,0,1,0,0,0,1
+Christopher Robin,christopher robin,2018,7.295,2767,6.7536,104,0,1,0,0,1,0
+A Haunted House,haunted house,2013,5.941,1936,7.6197,86,1,0,0,0,1,0
+Tucker and Dale vs. Evil,tucker and dale vs evil,2010,7.382,2857,6.7522,89,1,0,0,0,0,1
+The Hateful Eight,hateful eight,2015,7.755,14484,8.3885,188,0,0,1,0,0,1
+The Nutcracker and the Four Realms,nutcracker and the four realms,2018,6.084,2166,7.4105,99,0,1,0,0,1,0
+Puss in Boots,puss in boots,2011,6.572,4188,7.428,90,0,1,0,0,1,0
+Collateral Beauty,collateral beauty,2016,7.224,5433,6.8771,97,0,1,0,0,0,1
+Polar,polar,2019,6.319,2281,7.1669,118,0,1,0,1,0,0
+The Boondock Saints,boondock saints,1999,7.252,2483,7.7435,108,0,1,0,0,0,1
+The Interview,interview,2014,6.183,5903,8.673,113,0,1,0,0,0,1
+The Muppets,muppets,2011,6.676,1598,6.566,103,0,1,0,0,1,0
+ParaNorman,paranorman,2012,6.991,2577,7.4398,90,0,1,0,0,1,0
+A Night at the Roxbury,night at the roxbury,1998,6.551,924,6.8463,81,1,0,0,0,0,1
+The Next Three Days,next three days,2010,7.084,2908,6.8791,133,0,0,1,0,0,1
+Little Miss Sunshine,little miss sunshine,2006,7.694,7306,7.0354,102,0,1,0,0,0,1
+Rat Race,rat race,2001,6.269,1824,6.8562,112,0,1,0,0,1,0
+M,m,1931,8.1,2252,6.0893,111,0,1,0,0,1,0
+Enemy,enemy,2014,6.863,6006,8.2783,91,0,1,0,0,0,1
+Ava,ava,2020,5.837,2627,7.2968,96,0,1,0,0,0,1
+Ghost Rider,ghost rider,2007,5.576,6063,8.2928,114,0,1,0,0,0,1
+The Bounty Hunter,bounty hunter,2010,5.854,2882,6.7412,110,0,1,0,0,0,1
+Hop,hop,2011,5.783,1305,6.8512,95,0,1,0,0,1,0
+Crush,crush,2022,7.407,440,6.8097,92,0,1,0,0,0,1
+The Running Man,running man,1987,6.537,2451,7.3574,101,0,1,0,0,1,0
+Arthur Christmas,arthur christmas,2011,6.763,1517,6.278,97,0,1,0,0,1,0
+Downton Abbey,downton abbey,2019,7.142,1164,6.951,122,0,0,1,0,0,1
+Snowden,snowden,2016,7.105,4405,7.4486,134,0,0,1,0,0,1
+Meet the Spartans,meet the spartans,2008,4.076,1731,7.2837,84,1,0,0,0,0,1
+Trap,trap,2024,6.3,2152,8.0691,105,0,1,0,1,0,0
+War Horse,war horse,2011,7.3,3458,6.71,146,0,0,1,0,0,1
+Silence,silence,2016,7.127,3098,7.1019,161,0,0,1,0,0,1
+Universal Soldier,universal soldier,1992,6.334,1748,6.5591,103,0,1,0,0,0,1
+Patriot Games,patriot games,1992,6.682,1674,6.8678,117,0,1,0,0,0,1
+Okja,okja,2017,7.355,4332,6.8712,122,0,0,1,1,0,0
+The Outpost,outpost,2020,6.9,1071,7.1887,123,0,0,1,0,0,1
+American Beauty,american beauty,1999,8.008,12336,7.0333,122,0,0,1,0,0,1
+I Still Know What You Did Last Summer,i still know what you did last summer,1998,5.4,1527,7.7823,100,0,1,0,0,0,1
+The Mistress,mistress,2023,4.985,33,7.9036,102,0,1,0,1,0,0
+Invictus,invictus,2009,7.181,4168,6.5242,134,0,0,1,0,0,1
+Jolt,jolt,2021,6.544,1289,6.5991,91,0,1,0,0,0,1
+Black Mirror: Bandersnatch,black mirror bandersnatch,2018,6.761,3960,7.0957,90,0,1,0,1,0,0
+The Professor,professor,2018,6.867,1181,5.5377,90,0,1,0,0,1,0
+Evolution,evolution,2001,6.1,2291,6.424,101,0,1,0,0,0,1
+Under the Skin,under the skin,2014,6.142,3531,7.4643,108,0,1,0,0,0,1
+The Master,master,2012,7.115,3029,6.6452,137,0,0,1,0,0,1
+The Way Back,way back,2010,6.999,1627,6.3323,133,0,0,1,0,0,1
+The Evil Dead,evil dead,1981,7.278,4109,6.9937,85,1,0,0,1,0,0
+Set It Up,set it up,2018,6.933,2692,6.941,105,0,1,0,1,0,0
+Inside Llewyn Davis,inside llewyn davis,2013,7.192,2744,6.738,104,0,1,0,0,0,1
+Sex and the City 2,sex and the city 2,2010,6.085,1651,6.8264,147,0,0,1,0,0,1
+Something's Gotta Give,somethings gotta give,2003,6.635,1633,6.8926,128,0,0,1,0,0,1
+Cuckoo,cuckoo,2024,5.7,318,7.0198,103,0,1,0,1,0,0
+Peppermint,peppermint,2018,6.721,2093,7.6013,102,0,1,0,0,0,1
+Annie Hall,annie hall,1977,7.7,3981,7.6811,93,0,1,0,0,1,0
+Get Him to the Greek,get him to the greek,2010,5.971,1807,6.3662,109,0,1,0,0,0,1
+The Cell,cell,2000,6.268,1563,7.1479,107,0,1,0,1,0,0
+Hero,hero,2002,7.499,2305,6.8474,99,0,1,0,1,0,0
+The Voyeur,voyeur,1994,5.483,211,6.7475,98,0,1,0,1,0,0
+P.S. I Love You,ps i love you,2007,7.189,3336,7.6221,126,0,0,1,0,0,1
+The Vault,vault,2021,6.804,978,6.5329,114,0,1,0,0,0,1
+Chef,chef,2014,7.113,3373,7.8645,114,0,1,0,0,0,1
+Striptease,striptease,1996,5.544,1095,7.402,115,0,1,0,0,0,1
+Fear,fear,1996,6.502,891,8.352,97,0,1,0,1,0,0
+Vivo,vivo,2021,7.289,715,6.4913,103,0,1,0,0,1,0
+A Walk to Remember,walk to remember,2002,7.757,4096,7.5567,101,0,1,0,0,1,0
+Hot Girls Wanted,hot girls wanted,2015,6.1,667,7.3174,84,1,0,0,1,0,0
+The Blue Lagoon,blue lagoon,1980,6.161,1874,7.067,104,0,1,0,0,0,1
+The First Wives Club,first wives club,1996,6.707,766,6.4346,102,0,1,0,0,1,0
+The Family Man,family man,2000,6.797,2025,6.8783,125,0,0,1,0,0,1
+Rocky V,rocky v,1990,5.772,3254,5.6431,104,0,1,0,0,0,1
+Young Frankenstein,young frankenstein,1974,7.87,3193,6.2007,106,0,1,0,0,1,0
+Gulliver's Travels,gullivers travels,2010,5.201,2424,7.2473,85,1,0,0,0,1,0
+Big Daddy,big daddy,1999,6.487,3336,7.5167,93,0,1,0,0,0,1
+Mowgli: Legend of the Jungle,mowgli legend of the jungle,2018,6.473,2505,6.9863,105,0,1,0,0,0,1
+"To Wong Foo, Thanks for Everything! Julie Newmar",to wong foo thanks for everything julie newmar,1995,7.4,685,6.2616,109,0,1,0,0,0,1
+The Goldfinch,goldfinch,2019,7.153,893,6.6691,149,0,0,1,0,0,1
+Barbie: Princess Charm School,barbie princess charm school,2011,7.5,829,6.6601,79,1,0,0,0,1,0
+Mobile Suit Gundam Hathaway,mobile suit gundam hathaway,2021,7.345,126,6.7963,96,0,1,0,0,0,1
+Rumor Has It...,rumor has it,2005,5.66,1171,6.0862,97,0,1,0,0,0,1
+Mr. Deeds,mr deeds,2002,5.906,2346,6.3121,96,0,1,0,0,0,1
+In This Corner of the World,in this corner of the world,2016,7.9,571,6.345,130,0,0,1,0,0,1
+The Spectacular Now,spectacular now,2013,6.666,2895,6.8857,95,0,1,0,0,0,1
+Friendship,friendship,2025,0.0,0,7.1536,100,0,1,0,0,0,1
+Knock Knock,knock knock,2015,5.379,3264,6.4447,99,0,1,0,0,0,1
+The Fog,fog,1980,6.7,1592,6.3425,90,0,1,0,0,0,1
+Cloudy with a Chance of Meatballs 2,cloudy with a chance of meatballs 2,2013,6.4,3259,7.5065,94,0,1,0,0,1,0
+The Village,village,2004,6.48,4292,7.2021,108,0,1,0,0,0,1
+Rumble,rumble,2021,6.792,516,6.1188,95,0,1,0,1,0,0
+Angel Heart,angel heart,1987,7.1,1590,6.5175,113,0,1,0,0,0,1
+Zombieland,zombieland,2009,7.26,12489,9.2251,88,1,0,0,0,0,1
+Alive,alive,1993,6.886,1484,6.6763,127,0,0,1,1,0,0
+Machete,machete,2010,6.338,3353,6.8735,105,0,1,0,0,0,1
+Violet Evergarden: Eternity and the Auto Memory Doll,violet evergarden eternity and the auto memory doll,2019,8.142,397,6.2212,91,0,1,0,0,1,0
+American Assassin,american assassin,2017,6.411,3064,6.7597,112,0,1,0,0,0,1
+War Dogs,war dogs,2016,6.923,5065,7.9564,114,0,1,0,0,0,1
+The Peacemaker,peacemaker,1997,6.041,1027,6.6951,124,0,0,1,0,0,1
+Skyline,skyline,2010,5.011,1648,6.2379,92,0,1,0,0,0,1
+The Ice Road,ice road,2021,6.806,1735,6.4711,108,0,1,0,0,0,1
+Mary and The Witch's Flower,mary and the witchs flower,2017,7.116,818,6.2539,103,0,1,0,0,1,0
+The American President,american president,1995,6.5,736,6.1193,113,0,1,0,0,0,1
+District 9,district 9,2009,7.45,9719,7.3043,112,0,1,0,0,0,1
+Safe House,safe house,2012,6.48,3685,7.0023,115,0,1,0,0,0,1
+Child's Play,childs play,1988,6.715,3067,7.2433,87,1,0,0,0,0,1
+The Rocky Horror Picture Show,rocky horror picture show,1975,7.457,2886,7.1934,100,0,1,0,0,0,1
+Security,security,2017,6.329,909,6.1609,87,1,0,0,1,0,0
+Uptown Girls,uptown girls,2003,6.9,939,7.3834,92,0,1,0,0,0,1
+The Book of Eli,book of eli,2010,6.784,6248,7.2986,118,0,1,0,0,0,1
+Knowing,knowing,2009,6.218,5434,7.5992,121,0,0,1,0,0,1
+Jay and Silent Bob Reboot,jay and silent bob reboot,2019,5.681,555,6.0305,105,0,1,0,0,0,1
+The Man with the Golden Arm,man with the golden arm,1955,7.2,225,6.9705,119,0,1,0,0,0,1
+Lost in Space,lost in space,1998,5.409,1228,5.0651,130,0,0,1,0,1,0
+Tenacious D in The Pick of Destiny,tenacious d in the pick of destiny,2006,6.781,1648,6.4926,93,0,1,0,0,0,1
+Fatherhood,fatherhood,2021,7.519,1446,6.1467,109,0,1,0,0,0,1
+Talladega Nights: The Ballad of Ricky Bobby,talladega nights the ballad of ricky bobby,2006,6.364,1729,6.3479,108,0,1,0,0,0,1
+Jungle,jungle,2017,6.6,1996,6.7225,115,0,1,0,0,0,1
+Along Came a Spider,along came a spider,2001,6.3,1893,6.2756,104,0,1,0,0,0,1
+Butch Cassidy and the Sundance Kid,butch cassidy and the sundance kid,1969,7.605,2263,6.2015,111,0,1,0,0,1,0
+Legion,legion,2010,5.887,2673,6.9865,100,0,1,0,0,0,1
+Emma.,emma,2020,7.013,1793,7.1676,125,0,0,1,0,1,0
+Case 39,case 39,2009,6.322,2254,6.1625,109,0,1,0,0,0,1
+The Map of Tiny Perfect Things,map of tiny perfect things,2021,7.116,795,7.4921,99,0,1,0,0,0,1
+Outlaw King,outlaw king,2018,6.8,1590,6.5857,122,0,0,1,0,0,1
+A Ghost Story,ghost story,2017,7.094,2363,6.3872,93,0,1,0,0,0,1
+Scott Pilgrim vs. the World,scott pilgrim vs the world,2010,7.5,8048,6.8333,113,0,1,0,0,0,1
+Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan,borat cultural learnings of america for make benefit glorious nation of kazakhstan,2006,6.778,5534,6.1062,84,1,0,0,0,0,1
+Hellraiser,hellraiser,1987,6.883,2633,6.4468,94,0,1,0,0,0,1
+The Witcher: Nightmare of the Wolf,witcher nightmare of the wolf,2021,7.469,996,6.1418,83,1,0,0,1,0,0
+Anon,anon,2018,5.977,1608,6.3863,100,0,1,0,1,0,0
+Under Siege,under siege,1992,6.3,1582,6.0216,102,0,1,0,0,0,1
+Code 8,code 8,2019,6.3,2029,6.4172,99,0,1,0,1,0,0
+Green Zone,green zone,2010,6.475,2220,6.1144,115,0,1,0,0,0,1
+Sweet Girl,sweet girl,2021,6.619,1215,6.2493,110,0,1,0,0,0,1
+Blood Red Sky,blood red sky,2021,6.851,1590,5.8469,123,0,0,1,1,0,0
+The Gift,gift,2000,6.461,1259,6.3616,112,0,1,0,1,0,0
+Top Five,top five,2014,6.115,459,5.7828,102,0,1,0,0,0,1
+The Ridiculous 6,ridiculous 6,2015,5.199,1434,6.3607,119,0,1,0,0,0,1
+The Social Dilemma,social dilemma,2020,7.445,1642,6.6601,94,0,1,0,0,0,1
+The Highwaymen,highwaymen,2019,6.75,2086,6.1526,133,0,0,1,0,0,1
+Shot Caller,shot caller,2017,6.959,2084,6.3571,121,0,0,1,0,0,1
+Warlock,warlock,1959,6.7,156,5.893,122,0,0,1,0,0,1
+The Lobster,lobster,2015,7.042,6427,9.2195,119,0,1,0,0,0,1
+Freedom Writers,freedom writers,2007,7.92,2281,6.0451,123,0,0,1,0,0,1
+Halo Legends,halo legends,2010,7.3,161,6.3813,120,0,1,0,0,0,1
+The Invention of Lying,invention of lying,2009,6.207,2168,5.9646,100,0,1,0,0,0,1
+Spy,spy,2015,6.8,6104,7.5341,120,0,1,0,1,0,0
+Die Hard: With a Vengeance,die hard with a vengeance,1995,7.27,6256,6.9948,128,0,0,1,0,0,1
+The Devil's Bride,devils bride,2025,7.7,3,7.1207,91,0,1,0,1,0,0
+GANTZ:O,gantzo,2016,7.305,765,6.7651,95,0,1,0,1,0,0
+Home,home,2015,6.793,4030,6.7381,94,0,1,0,0,1,0
+No Reservations,no reservations,2007,6.7,1389,6.339,104,0,1,0,0,1,0
+Equilibrium,equilibrium,2002,7.041,4637,6.9619,107,0,1,0,0,0,1
+The Invitation,invitation,2022,6.053,862,6.5602,105,0,1,0,1,0,0
+Across the Universe,across the universe,2007,7.143,1358,5.671,133,0,0,1,0,0,1
+The Dukes of Hazzard,dukes of hazzard,2005,5.557,1203,5.7559,104,0,1,0,0,0,1
+Teen Wolf,teen wolf,1985,6.195,1176,7.3318,91,0,1,0,0,0,1
+The Old Guard,old guard,2020,7.13,4282,6.1771,125,0,0,1,0,0,1
+Leave No Trace,leave no trace,2018,6.786,1262,6.66,109,0,1,0,0,1,0
+Dangal,dangal,2016,7.89,1031,6.5326,161,0,0,1,0,1,0
+The Shadow,shadow,1994,6.1,532,5.8697,108,0,1,0,0,0,1
+Stargate,stargate,1994,7.004,3514,7.3825,121,0,0,1,0,0,1
+Paranormal Activity,paranormal activity,2007,6.017,5129,7.2018,86,1,0,0,0,0,1
+Cold Mountain,cold mountain,2003,6.9,1827,5.4502,154,0,0,1,0,0,1
+The Collector,collector,2009,6.617,1521,6.647,88,1,0,0,0,0,1
+Enter the Dragon,enter the dragon,1973,7.414,1946,6.7996,102,0,1,0,0,0,1
+Wanderlust,wanderlust,2012,5.504,1263,5.9378,98,0,1,0,1,0,0
+Rurouni Kenshin: The Final,rurouni kenshin the final,2021,7.736,498,5.8609,138,0,0,1,0,0,1
+The Babysitter,babysitter,2017,6.167,3677,6.5054,85,1,0,0,1,0,0
+Duel,duel,1971,7.4,1921,5.9373,89,1,0,0,0,0,1
+The King's Speech,kings speech,2010,7.734,8867,6.2248,118,0,1,0,0,0,1
+"10,000 BC",10000 bc,2008,5.483,3000,6.6793,109,0,1,0,0,0,1
+The Wrong Missy,wrong missy,2020,6.151,1202,6.3537,90,0,1,0,1,0,0
+Beast,beast,2022,6.576,1597,6.4962,92,0,1,0,1,0,0
+The Iron Lady,iron lady,2011,6.352,1758,5.5619,105,0,1,0,0,0,1
+The Boy,boy,2016,6.0,3790,6.0556,98,0,1,0,0,0,1
+Cult of Chucky,cult of chucky,2017,5.821,1320,6.7477,91,0,1,0,0,0,1
+Life Itself,life itself,2018,7.221,578,4.7079,118,0,1,0,0,0,1
+Mother's Day,mothers day,2016,5.985,1277,6.2473,118,0,1,0,0,0,1
+Starsky & Hutch,starsky hutch,2004,5.815,2364,5.6709,101,0,1,0,0,0,1
+Unhinged,unhinged,2020,6.443,2342,6.8332,90,0,1,0,0,0,1
+The Protector,protector,2005,7.13,874,6.2118,111,0,1,0,1,0,0
+Sniper: Ultimate Kill,sniper ultimate kill,2017,6.428,347,5.9539,93,0,1,0,0,0,1
+Bleach the Movie: Hell Verse,bleach the movie hell verse,2010,7.589,186,5.8948,94,0,1,0,0,0,1
+I Love You Phillip Morris,i love you phillip morris,2010,6.431,1684,5.3244,98,0,1,0,0,0,1
+Hubie Halloween,hubie halloween,2020,5.92,1666,5.5992,103,0,1,0,0,0,1
+Cake,cake,2014,6.283,906,5.6719,102,0,1,0,1,0,0
+Dinner for Schmucks,dinner for schmucks,2010,5.7,1806,5.4649,114,0,1,0,0,0,1
+The Report,report,2019,7.032,1059,5.8874,119,0,1,0,0,0,1
+Cats & Dogs: The Revenge of Kitty Galore,cats dogs the revenge of kitty galore,2010,5.199,646,6.0256,82,1,0,0,0,1,0
+Close,close,2022,7.8,859,6.6597,104,0,1,0,1,0,0
+All About Steve,all about steve,2009,4.963,1003,5.4147,99,0,1,0,0,0,1
+A Thousand Words,thousand words,2012,6.094,1334,5.2277,91,0,1,0,0,0,1
+Brooklyn's Finest,brooklyns finest,2010,6.3,912,5.3276,133,0,0,1,0,0,1
+Sideways,sideways,2004,7.1,1715,5.9122,127,0,0,1,0,0,1
+Savages,savages,2012,6.352,2169,5.8662,131,0,0,1,0,0,1
+Soul Surfer,soul surfer,2011,7.012,1187,6.1585,112,0,1,0,0,1,0
+Masterminds,masterminds,2016,5.746,1763,5.769,95,0,1,0,0,0,1
+The Pelican Brief,pelican brief,1993,6.6,1644,6.7464,141,0,0,1,0,0,1
+Miracle in Cell No. 7,miracle in cell no 7,2019,8.257,4452,6.9216,132,0,0,1,0,0,1
+Spectral,spectral,2016,6.484,1761,6.3616,109,0,1,0,0,0,1
+47 Meters Down: Uncaged,47 meters down uncaged,2019,5.693,1435,6.0936,90,0,1,0,0,0,1
+A Bad Moms Christmas,bad moms christmas,2017,6.322,2115,5.6381,104,0,1,0,0,0,1
+3 Idiots,3 idiots,2009,7.997,2469,6.8359,171,0,0,1,0,0,1
+Elvira: Mistress of the Dark,elvira mistress of the dark,1988,6.617,544,5.6034,96,0,1,0,0,0,1
+I'm Thinking of Ending Things,im thinking of ending things,2020,6.581,2005,6.0053,135,0,0,1,0,0,1
+His House,his house,2020,6.419,1108,6.7255,93,0,1,0,0,0,1
+Mystic River,mystic river,2003,7.746,6885,6.3555,138,0,0,1,0,0,1
+Beverly Hills Ninja,beverly hills ninja,1997,5.647,777,5.2813,88,1,0,0,0,0,1
+Behind Enemy Lines,behind enemy lines,2001,6.413,1542,5.7275,106,0,1,0,0,0,1
+The Kissing Booth 2,kissing booth 2,2020,7.636,5031,6.599,132,0,0,1,0,0,1
+Jaws: The Revenge,jaws the revenge,1987,4.071,1073,6.1141,89,1,0,0,0,0,1
+Legend of the Guardians: The Owls of Ga'Hoole,legend of the guardians the owls of gahoole,2010,6.81,2331,5.9638,97,0,1,0,0,1,0
+Eye for an Eye,eye for an eye,1996,6.186,417,5.7188,101,0,1,0,1,0,0
+I Know What You Did Last Summer,i know what you did last summer,1997,5.975,2868,6.8325,100,0,1,0,1,0,0
+Status Update,status update,2018,7.283,545,5.8713,106,0,1,0,0,0,1
+50/50,5050,2011,7.17,3840,5.5952,100,0,1,0,0,0,1
+Mirai,mirai,2018,7.2,790,6.1211,98,0,1,0,0,1,0
+Y Tu Mamá También,y tu mamá también,2001,7.4,1578,6.7628,106,0,1,0,0,0,1
+School of Rock,school of rock,2003,7.082,5768,5.634,110,0,1,0,0,0,1
+The Three Musketeers,three musketeers,1973,6.8,309,5.8449,106,0,1,0,0,1,0
+Seabiscuit,seabiscuit,2003,7.055,854,6.0522,141,0,0,1,0,0,1
+Death Race: Beyond Anarchy,death race beyond anarchy,2018,6.203,347,6.2012,111,0,1,0,0,0,1
+The Imaginarium of Doctor Parnassus,imaginarium of doctor parnassus,2009,6.375,2738,5.4762,123,0,0,1,0,0,1
+Honest Thief,honest thief,2020,6.496,1767,5.4654,99,0,1,0,0,0,1
+The Informer,informer,2019,6.522,874,4.9809,109,0,1,0,0,0,1
+Training Day,training day,2001,7.504,6112,7.2694,122,0,0,1,0,0,1
+Sleepover,sleepover,2004,6.041,487,5.7991,89,1,0,0,0,1,0
+Molly's Game,mollys game,2017,7.149,3783,7.2549,140,0,0,1,0,0,1
+The Soul Eater,soul eater,2024,6.1,159,5.9947,111,0,1,0,0,0,1
+Anacondas: The Hunt for the Blood Orchid,anacondas the hunt for the blood orchid,2004,5.483,1001,6.336,96,0,1,0,0,0,1
+Space Cowboys,space cowboys,2000,6.395,1408,5.6062,130,0,0,1,0,0,1
+Project Power,project power,2020,6.444,2889,6.329,113,0,1,0,0,0,1
+Doom,doom,2005,5.161,2279,5.7385,105,0,1,0,0,0,1
+Absolutely Anything,absolutely anything,2015,5.902,1493,5.4317,85,1,0,0,0,0,1
+"Good Night, and Good Luck.",good night and good luck,2005,7.078,1013,5.975,92,0,1,0,0,1,0
+Uncut Gems,uncut gems,2019,7.159,4911,6.8467,136,0,0,1,0,0,1
+Jackpot!,jackpot,2024,6.419,665,6.8706,107,0,1,0,0,0,1
+Fate/stay night: Unlimited Blade Works,fatestay night unlimited blade works,2010,6.9,77,5.685,107,0,1,0,0,0,1
+Mystery Men,mystery men,1999,5.824,847,5.7802,121,0,0,1,0,0,1
+Words Bubble Up Like Soda Pop,words bubble up like soda pop,2021,7.351,299,5.3776,88,1,0,0,0,1,0
+The Bank Job,bank job,2008,6.834,2399,6.0219,112,0,1,0,0,0,1
+I Care a Lot,i care a lot,2021,6.585,2762,6.1737,119,0,1,0,0,0,1
+The Courier,courier,2020,7.05,1191,6.3641,112,0,1,0,0,0,1
+My Week with Marilyn,my week with marilyn,2011,6.7,1301,5.2087,99,0,1,0,0,0,1
+You Were Never Really Here,you were never really here,2017,6.548,2851,5.9551,89,1,0,0,0,0,1
+The Endless,endless,2017,6.317,1142,6.8045,112,0,1,0,1,0,0
+Sin City,sin city,2005,7.461,8318,6.4924,124,0,0,1,0,0,1
+Bleach the Movie: Fade to Black,bleach the movie fade to black,2008,7.111,180,5.628,94,0,1,0,0,1,0
+Water for Elephants,water for elephants,2011,6.9,2543,5.1293,122,0,0,1,0,0,1
+Friday the 13th,friday the 13th,1980,6.4,3044,5.7828,95,0,1,0,0,0,1
+Batman: The Killing Joke,batman the killing joke,2016,6.602,1851,5.3557,77,1,0,0,0,0,1
+21 Grams,21 grams,2003,7.325,3188,5.4677,124,0,0,1,0,0,1
+Sabrina,sabrina,1954,7.5,1265,5.8664,113,0,1,0,1,0,0
+Candyman,candyman,1992,6.6,1653,5.6149,100,0,1,0,0,0,1
+Playing with Fire,playing with fire,2019,6.584,714,5.211,96,0,1,0,1,0,0
+The Chosen One,chosen one,2024,0.0,0,5.3019,104,0,1,0,1,0,0
+National Treasure,national treasure,2004,6.639,6453,7.0857,131,0,0,1,0,1,0
+Harold and Maude,harold and maude,1971,7.61,1120,5.2654,91,0,1,0,0,1,0
+To Catch a Thief,to catch a thief,1955,7.275,1545,5.5571,106,0,1,0,0,1,0
+Ninja Assassin,ninja assassin,2009,6.7,1592,5.9459,99,0,1,0,0,0,1
+Olympus Has Fallen,olympus has fallen,2013,6.405,6709,6.3664,120,0,1,0,0,0,1
+Midnight Run,midnight run,1988,7.185,1129,5.8463,126,0,0,1,0,0,1
+Bachelorette,bachelorette,2012,5.41,1205,5.4394,87,1,0,0,0,0,1
+The Babysitter: Killer Queen,babysitter killer queen,2020,6.354,1691,6.4915,101,0,1,0,1,0,0
+Jaws 2,jaws 2,1978,6.0,1951,5.7052,117,0,1,0,0,1,0
+Sniper: Ghost Shooter,sniper ghost shooter,2016,6.295,263,5.7688,100,0,1,0,0,0,1
+Time Trap,time trap,2018,6.265,1192,5.7728,87,1,0,0,0,0,1
+13 Assassins,13 assassins,2010,7.327,1167,7.2508,141,0,0,1,0,0,1
+How to Be a Latin Lover,how to be a latin lover,2017,6.887,633,5.3495,116,0,1,0,0,0,1
+Malicious,malicious,1973,7.292,318,5.7676,93,0,1,0,1,0,0
+The Pink Panther,pink panther,1963,6.835,1072,5.6782,115,0,1,0,0,1,0
+Cargo,cargo,2017,6.406,1753,5.5931,105,0,1,0,0,0,1
+Killers,killers,2010,6.0,2217,6.3282,100,0,1,0,0,0,1
+The Brave One,brave one,2007,6.6,984,5.7301,122,0,0,1,0,0,1
+The Little Hours,little hours,2017,5.9,590,5.9537,90,0,1,0,0,0,1
+Kingsglaive: Final Fantasy XV,kingsglaive final fantasy xv,2016,6.741,704,5.3079,115,0,1,0,0,0,1
+Team America: World Police,team america world police,2004,6.7,1907,5.7468,98,0,1,0,0,0,1
+Not Another Teen Movie,not another teen movie,2001,5.791,2124,6.1982,89,1,0,0,0,0,1
+Holidate,holidate,2020,6.995,2247,5.2219,104,0,1,0,1,0,0
+Papillon,papillon,1973,7.83,1963,6.2047,151,0,0,1,0,0,1
+Kill Command,kill command,2016,5.6,592,4.9447,99,0,1,0,1,0,0
+Champions,champions,2023,6.736,425,6.2609,124,0,0,1,0,0,1
+Willy Wonka & the Chocolate Factory,willy wonka the chocolate factory,1971,7.482,3702,7.2143,99,0,1,0,0,1,0
+The Night Clerk,night clerk,2020,6.23,833,5.8594,90,0,1,0,0,0,1
+Woody Woodpecker,woody woodpecker,2017,6.569,730,6.2703,91,0,1,0,0,1,0
+Æon Flux,æon flux,2005,5.623,2278,5.3344,93,0,1,0,0,0,1
+Ocean's Thirteen,oceans thirteen,2007,6.722,6472,6.6778,122,0,0,1,0,0,1
+The Brothers Grimm,brothers grimm,2005,5.84,2784,5.702,118,0,1,0,0,0,1
+"Extremely Wicked, Shockingly Evil and Vile",extremely wicked shockingly evil and vile,2019,7.006,3386,5.5398,111,0,1,0,0,0,1
+The Case for Christ,case for christ,2017,6.849,289,5.8008,112,0,1,0,0,1,0
+Disclosure,disclosure,1994,6.247,1199,5.7052,128,0,0,1,1,0,0
+Joseph: King of Dreams,joseph king of dreams,2002,6.859,1013,6.1219,74,1,0,0,0,1,0
+The Woman in the Window,woman in the window,2021,6.004,2005,5.9708,102,0,1,0,0,0,1
+Lady Bird,lady bird,2017,7.257,8674,6.694,94,0,1,0,0,0,1
+Spotlight,spotlight,2015,7.815,8363,5.6791,129,0,0,1,0,0,1
+To All the Boys: P.S. I Still Love You,to all the boys ps i still love you,2020,6.827,2599,5.7368,102,0,1,0,0,0,1
+Mary Magdalene,mary magdalene,2018,6.321,544,5.2136,120,0,1,0,0,0,1
+The Rage: Carrie 2,rage carrie 2,1999,5.58,413,4.833,104,0,1,0,0,0,1
+The Strangers: Prey at Night,strangers prey at night,2018,5.685,1402,6.0786,86,1,0,0,0,0,1
+Inuyasha the Movie: Affections Touching Across Time,inuyasha the movie affections touching across time,2001,7.6,183,5.4752,99,0,1,0,0,1,0
+Late Night,late night,2019,6.4,811,5.4466,102,0,1,0,0,0,1
+Yes Man,yes man,2008,6.677,6960,6.7639,104,0,1,0,0,0,1
+"Love, Rosie",love rosie,2014,7.82,6298,6.0201,102,0,1,0,0,0,1
+Julie & Julia,julie julia,2009,6.705,2110,5.6466,123,0,0,1,0,0,1
+Tremors 2: Aftershocks,tremors 2 aftershocks,1996,6.274,973,5.6841,100,0,1,0,0,0,1
+Escape from Planet Earth,escape from planet earth,2012,5.739,766,5.5002,89,1,0,0,0,1,0
+Cool Hand Luke,cool hand luke,1967,7.733,1469,5.7121,127,0,0,1,0,0,1
+Rurouni Kenshin: The Beginning,rurouni kenshin the beginning,2021,7.685,482,5.3023,138,0,0,1,1,0,0
+My Little Pony: A New Generation,my little pony a new generation,2021,7.694,315,5.0541,90,0,1,0,0,1,0
+9,9,2009,6.929,3621,6.268,79,1,0,0,0,0,1
+Trollhunters: Rise of the Titans,trollhunters rise of the titans,2021,7.539,337,6.0136,106,0,1,0,0,1,0
+"As Above, So Below",as above so below,2014,6.712,3565,5.4569,93,0,1,0,0,0,1
+The Roommate,roommate,2011,5.372,947,5.4108,91,0,1,0,0,0,1
+Death at a Funeral,death at a funeral,2010,5.855,992,5.0717,92,0,1,0,0,0,1
+The Secret,secret,2006,6.548,367,5.7596,90,0,1,0,0,0,1
+Sound of Metal,sound of metal,2020,7.715,2614,6.1533,120,0,1,0,0,0,1
+Sleepless,sleepless,2017,5.927,1272,4.9659,95,0,1,0,0,0,1
+The Theory of Everything,theory of everything,2014,7.843,10697,7.3281,123,0,0,1,0,0,1
+Bulworth,bulworth,1998,6.3,252,4.8586,108,0,1,0,0,0,1
+Hostel: Part III,hostel part iii,2011,5.073,1216,6.3464,88,1,0,0,0,0,1
+Raising Arizona,raising arizona,1987,7.056,2163,6.2888,94,0,1,0,0,0,1
+The Wicker Man,wicker man,2006,4.312,1333,5.1701,102,0,1,0,0,0,1
+The Space Between Us,space between us,2017,7.1,2474,5.8319,121,0,0,1,0,0,1
+Gangs of New York,gangs of new york,2002,7.318,6756,6.978,168,0,0,1,0,0,1
+Ocean's Twelve,oceans twelve,2004,6.564,7411,6.3785,125,0,0,1,0,0,1
+The Losers,losers,2010,6.264,1841,5.4831,97,0,1,0,0,0,1
+Hillbilly Elegy,hillbilly elegy,2020,6.72,948,5.456,117,0,1,0,0,0,1
+Gothika,gothika,2003,6.1,2319,5.1944,98,0,1,0,0,0,1
+The Debt Collector,debt collector,2018,5.831,219,5.579,96,0,1,0,1,0,0
+Adrift,adrift,2018,6.841,2613,5.5733,96,0,1,0,0,0,1
+To All the Boys: Always and Forever,to all the boys always and forever,2021,7.524,1969,5.3235,115,0,1,0,0,0,1
+Doctor Zhivago,doctor zhivago,1965,7.548,1181,5.6094,200,0,0,1,0,0,1
+The Ugly Truth,ugly truth,2009,6.506,3586,4.8212,96,0,1,0,0,0,1
+The Last Airbender,last airbender,2010,4.634,4028,7.0139,103,0,1,0,0,1,0
+The Last Letter from Your Lover,last letter from your lover,2021,7.394,620,5.063,110,0,1,0,1,0,0
+The Iceman,iceman,2012,6.553,1047,5.0688,105,0,1,0,0,0,1
+Soldier,soldier,1998,6.398,865,5.305,99,0,1,0,0,0,1
+Awake,awake,2007,6.53,1392,5.853,84,1,0,0,1,0,0
+Unfriended,unfriended,2014,5.525,3376,4.7197,83,1,0,0,0,0,1
+Garden State,garden state,2004,7.082,1900,5.3586,102,0,1,0,0,0,1
+Paris Is Burning,paris is burning,1991,7.995,486,5.1372,78,1,0,0,0,0,1
+Act of Valor,act of valor,2012,6.511,1163,4.894,110,0,1,0,0,0,1
+Killing Them Softly,killing them softly,2012,6.023,2236,5.1712,97,0,1,0,0,0,1
+Sandy Wexler,sandy wexler,2017,5.498,556,5.0034,130,0,0,1,0,0,1
+Haywire,haywire,2011,5.705,1383,5.2509,93,0,1,0,0,0,1
+Sand Castle,sand castle,2017,6.518,813,5.8754,113,0,1,0,1,0,0
+War Machine,war machine,2017,5.6,1156,4.9368,122,0,0,1,1,0,0
+Extreme Movie,extreme movie,2008,4.452,187,4.812,88,1,0,0,0,0,1
+We Are Your Friends,we are your friends,2015,6.779,2359,5.494,96,0,1,0,0,0,1
+Barbie in A Mermaid Tale,barbie in a mermaid tale,2010,7.236,775,5.5177,75,1,0,0,0,1,0
+Forgotten,forgotten,2017,7.916,1166,5.7763,108,0,1,0,1,0,0
+The Transporter Refueled,transporter refueled,2015,5.508,1508,5.6907,95,0,1,0,0,0,1
+Arthur,arthur,2011,5.5,746,5.0442,110,0,1,0,0,0,1
+Life in a Year,life in a year,2020,8.241,1910,5.4681,107,0,1,0,0,0,1
+Vivarium,vivarium,2019,6.05,2216,6.5918,97,0,1,0,0,0,1
+Mute,mute,2018,5.567,1081,4.3468,126,0,0,1,1,0,0
+Goosebumps,goosebumps,2015,6.3,3818,7.7081,103,0,1,0,0,1,0
+Together,together,2025,0.0,0,5.0891,102,0,1,0,0,0,1
+Evangelion: Death (True)²,evangelion death ²,1998,6.7,101,4.8514,69,1,0,0,1,0,0
+Mirage,mirage,2018,7.467,1831,5.9239,129,0,0,1,1,0,0
+Gosford Park,gosford park,2001,6.826,1129,5.1658,137,0,0,1,0,0,1
+I See You,i see you,2019,7.001,1496,5.7684,98,0,1,0,0,0,1
+Children of the Sea,children of the sea,2019,7.087,311,4.9435,111,0,1,0,0,1,0
+The Breadwinner,breadwinner,2017,7.833,856,5.6178,94,0,1,0,0,0,1
+Inspector Gadget,inspector gadget,1999,4.5,1236,5.117,78,1,0,0,0,1,0
+The Call,call,2020,7.529,859,5.6132,112,0,1,0,1,0,0
+Spy Kids: All the Time in the World,spy kids all the time in the world,2011,4.693,1004,5.7639,89,1,0,0,0,1,0
+Dear Santa,dear santa,2024,6.276,375,5.5659,108,0,1,0,0,1,0
+Domino,domino,2005,5.916,1223,5.1921,127,0,0,1,0,0,1
+Bad Company,bad company,2002,5.481,789,5.0195,116,0,1,0,0,1,0
+A Wrinkle in Time,wrinkle in time,2018,5.064,1803,5.5431,109,0,1,0,0,1,0
+Blood Father,blood father,2016,6.181,1560,4.8649,88,1,0,0,0,0,1
+"Yours, Mine and Ours",yours mine and ours,1968,6.8,140,5.2002,111,0,1,0,0,1,0
+Cats,cats,2019,4.051,987,5.2255,110,0,1,0,0,1,0
+Jack,jack,1996,6.293,1283,4.969,113,0,1,0,0,0,1
+The Week Of,week of,2018,5.456,805,5.0486,116,0,1,0,0,0,1
+All Good Things,all good things,2010,6.057,926,4.9185,101,0,1,0,0,0,1
+Signs,signs,2002,6.693,5781,5.2631,106,0,1,0,1,0,0
+Race,race,2016,7.249,1558,5.5407,134,0,0,1,0,0,1
+Die Another Day,die another day,2002,5.987,3603,7.4651,133,0,0,1,0,0,1
+Detained,detained,2024,6.25,40,5.0648,97,0,1,0,0,0,1
+The Bachelor,bachelor,1999,5.2,311,4.712,101,0,1,0,0,0,1
+Fighter,fighter,2024,6.1,132,5.4581,167,0,0,1,0,0,1
+The Wall,wall,2017,6.38,977,5.3722,90,0,1,0,0,0,1
+Benji,benji,2018,6.912,306,5.6993,87,1,0,0,0,1,0
+Marshall,marshall,2017,7.255,629,5.0011,118,0,1,0,0,0,1
+Truth,truth,2015,6.549,500,4.8264,125,0,0,1,0,0,1
+Fanboys,fanboys,2009,6.1,839,4.77,90,0,1,0,0,0,1
+The Night Comes for Us,night comes for us,2018,6.898,720,5.501,121,0,0,1,1,0,0
+DragonHeart,dragonheart,1996,6.537,2004,5.1351,103,0,1,0,0,0,1
+I Don't Know How She Does It,i dont know how she does it,2011,5.178,398,5.0456,89,1,0,0,0,0,1
+Perfect Stranger,perfect stranger,2007,5.784,942,4.9303,109,0,1,0,0,0,1
+Rugrats Go Wild,rugrats go wild,2003,6.271,306,4.6674,81,1,0,0,0,1,0
+Super,super,2010,6.542,1613,4.9574,96,0,1,0,0,0,1
+The Little Prince,little prince,2015,7.611,2830,5.8307,108,0,1,0,0,1,0
+Becoming Jane,becoming jane,2007,7.308,1188,4.9559,120,0,1,0,0,0,1
+Take Me Home Tonight,take me home tonight,2011,6.0,681,6.2068,97,0,1,0,0,0,1
+Outside the Wire,outside the wire,2021,6.36,1817,5.0994,116,0,1,0,0,0,1
+Memoir of a Murderer,memoir of a murderer,2017,7.4,321,5.0033,118,0,1,0,1,0,0
+The Adventures of Tintin,adventures of tintin,2011,6.901,5477,5.2326,107,0,1,0,0,1,0
+Rogue,rogue,2020,5.6,701,5.0969,106,0,1,0,1,0,0
+The Vanishing,vanishing,2019,5.737,735,4.77,108,0,1,0,0,0,1
+Kate,kate,2021,6.641,1564,5.1692,106,0,1,0,0,0,1
+Dolemite Is My Name,dolemite is my name,2019,7.002,1195,4.7045,118,0,1,0,0,0,1
+Show Dogs,show dogs,2018,5.98,249,5.1639,90,0,1,0,0,1,0
+House Party,house party,2023,5.654,107,5.263,100,0,1,0,0,0,1
+Shanghai Knights,shanghai knights,2003,6.136,2297,4.7743,115,0,1,0,0,0,1
+The BFG,bfg,2016,6.281,3430,4.9548,117,0,1,0,0,1,0
+No Game No Life: Zero,no game no life zero,2017,7.814,403,4.9463,106,0,1,0,1,0,0
+Black Book,black book,2006,7.456,1170,5.041,145,0,0,1,0,0,1
+Apostle,apostle,2018,6.105,1452,5.3468,130,0,0,1,1,0,0
+The Dark Crystal,dark crystal,1982,7.115,1166,4.3322,93,0,1,0,0,1,0
+David Attenborough: A Life on Our Planet,david attenborough a life on our planet,2020,8.445,383,5.1593,83,1,0,0,0,1,0
+Finding You,finding you,2021,6.916,203,5.0606,119,0,1,0,1,0,0
+The Four Seasons,four seasons,1981,6.358,53,7.7672,107,0,1,0,0,1,0
+The Resident,resident,2011,5.775,638,5.0018,91,0,1,0,0,0,1
+A Futile and Stupid Gesture,futile and stupid gesture,2018,6.459,340,4.5055,101,0,1,0,1,0,0
+Over the Moon,over the moon,2020,7.216,1316,4.8733,95,0,1,0,0,1,0
+Feel the Beat,feel the beat,2020,7.582,1126,5.3827,107,0,1,0,0,1,0
+The Lost City of Z,lost city of z,2017,6.401,2898,4.9949,141,0,0,1,0,0,1
+Hoodwinked Too! Hood VS. Evil,hoodwinked too hood vs evil,2011,5.094,543,5.1121,86,1,0,0,0,1,0
+Filth,filth,2013,6.865,1758,4.768,97,0,1,0,0,0,1
+Night on Earth,night on earth,1991,7.525,945,4.5641,128,0,0,1,0,1,0
+Fred Claus,fred claus,2007,5.834,865,4.4553,115,0,1,0,0,1,0
+SuperFly,superfly,2018,6.8,383,5.0945,107,0,1,0,0,0,1
+Tangerine,tangerine,2015,6.9,718,4.8788,87,1,0,0,0,0,1
+Wonder Wheel,wonder wheel,2017,6.389,1322,4.5299,101,0,1,0,0,0,1
+God's Own Country,gods own country,2017,7.769,924,5.2997,105,0,1,0,1,0,0
+Rim of the World,rim of the world,2019,5.955,973,5.8323,99,0,1,0,0,0,1
+LOL,lol,2012,6.119,2700,5.2176,97,0,1,0,0,0,1
+The Chase,chase,1966,7.08,294,4.5259,135,0,0,1,0,1,0
+The Adventures of Sharkboy and Lavagirl,adventures of sharkboy and lavagirl,2005,5.185,1529,5.5004,92,0,1,0,0,1,0
+The Photograph,photograph,2020,6.4,210,4.1288,106,0,1,0,0,0,1
+War,war,2007,6.398,1910,5.0971,103,0,1,0,0,0,1
+Scandal,scandal,1989,5.9,91,5.0646,115,0,1,0,0,0,1
+NiNoKuni,ninokuni,2019,6.508,254,4.8527,106,0,1,0,0,0,1
+Attack the Block,attack the block,2011,6.458,2098,4.8567,88,1,0,0,0,0,1
+Bad Genius,bad genius,2017,7.892,795,4.9383,130,0,0,1,1,0,0
+Love,love,2015,6.45,2522,5.699,134,0,0,1,0,0,1
+Kicking & Screaming,kicking screaming,2005,5.8,641,4.9932,95,0,1,0,0,0,1
+Dope,dope,2015,7.067,1493,5.8653,103,0,1,0,1,0,0
+Bottle Shock,bottle shock,2008,6.334,208,4.6478,110,0,1,0,0,0,1
+Timeline,timeline,2003,5.719,1084,4.749,116,0,1,0,0,0,1
+Good Luck Chuck,good luck chuck,2007,5.903,1545,5.3153,101,0,1,0,0,0,1
+17 Again,17 again,2009,6.3,5207,5.2015,102,0,1,0,0,0,1
+The Piano,piano,1993,7.4,1537,5.449,120,0,1,0,0,0,1
+Mile 22,mile 22,2018,6.2,2262,5.4258,94,0,1,0,0,0,1
+Trust,trust,2010,6.553,977,4.8664,104,0,1,0,0,0,1
+Pandora,pandora,2016,7.553,480,5.4308,136,0,0,1,1,0,0
+Tremors: Shrieker Island,tremors shrieker island,2020,6.098,225,4.715,102,0,1,0,0,0,1
+Rebecca,rebecca,1940,7.893,1819,4.4678,130,0,0,1,0,0,1
+K-19: The Widowmaker,k19 the widowmaker,2002,6.547,1059,4.9277,138,0,0,1,0,0,1
+Da 5 Bloods,da 5 bloods,2020,6.469,1092,4.5855,155,0,0,1,0,0,1
+Christine,christine,1983,6.865,2035,4.8147,110,0,1,0,0,0,1
+Blind Date,blind date,1987,6.0,502,5.0701,95,0,1,0,0,0,1
+13th,13th,2016,7.896,753,4.5949,100,0,1,0,1,0,0
+The Hurricane Heist,hurricane heist,2018,5.686,1028,5.1543,103,0,1,0,0,0,1
+PK,pk,2014,7.714,1030,4.9721,153,0,0,1,0,0,1
+Cruel Intentions 2,cruel intentions 2,2000,5.1,396,4.5823,87,1,0,0,0,0,1
+Worth,worth,2021,6.711,341,4.4418,118,0,1,0,0,0,1
+How It Ends,how it ends,2018,5.282,1940,4.9054,113,0,1,0,1,0,0
+An American Tail,american tail,1986,6.724,1367,4.4792,80,1,0,0,0,1,0
+Prom Night,prom night,2008,5.037,736,4.6658,88,1,0,0,0,0,1
+The Last Exorcism,last exorcism,2010,5.675,1031,4.7517,87,1,0,0,0,0,1
+The Well,well,2024,5.653,95,5.2315,91,0,1,0,1,0,0
+Superman Returns,superman returns,2006,5.778,4272,4.8072,154,0,0,1,0,0,1
+Employee of the Month,employee of the month,2006,5.602,649,4.7892,103,0,1,0,0,0,1
+To the Bone,to the bone,2017,7.216,3508,4.7277,107,0,1,0,1,0,0
+Timecrimes,timecrimes,2007,7.012,1300,5.6858,92,0,1,0,0,0,1
+Hard Candy,hard candy,2005,6.8,2621,4.9695,104,0,1,0,0,0,1
+The Outsiders,outsiders,1983,7.2,1408,5.4179,91,0,1,0,1,0,0
+The Rum Diary,rum diary,2011,5.884,1255,4.6494,120,0,1,0,0,0,1
+Rocky III,rocky iii,1982,6.9,4210,4.9993,99,0,1,0,0,1,0
+The Art of the Steal,art of the steal,2013,6.2,572,4.1291,90,0,1,0,0,0,1
+Fearless,fearless,2006,7.508,1303,5.1053,103,0,1,0,0,1,0
+Forbidden Planet,forbidden planet,1956,7.2,960,4.6563,98,0,1,0,0,1,0
+The Legend of Bagger Vance,legend of bagger vance,2000,6.588,917,4.6353,126,0,0,1,0,0,1
+Jackie Brown,jackie brown,1997,7.358,6507,5.0841,154,0,0,1,0,0,1
+The Life Aquatic with Steve Zissou,life aquatic with steve zissou,2004,7.1,2944,4.49,119,0,1,0,0,0,1
+Mank,mank,2020,6.684,1651,4.4257,132,0,0,1,0,0,1
+A Cinderella Story,cinderella story,2004,6.574,3244,5.5175,95,0,1,0,0,1,0
+Jack Frost,jack frost,1998,6.018,1166,4.6606,101,0,1,0,0,0,1
+The Last Dance,last dance,2024,7.7,40,5.394,126,0,0,1,1,0,0
+Om Shanti Om,om shanti om,2007,7.081,363,4.6997,169,0,0,1,0,0,1
+Love Story,love story,1970,6.821,702,5.2734,99,0,1,0,0,0,1
+The Kissing Booth 3,kissing booth 3,2021,6.886,1940,5.0893,112,0,1,0,0,0,1
+Between Two Ferns: The Movie,between two ferns the movie,2019,5.948,890,4.4957,82,1,0,0,1,0,0
+Separation,separation,2021,5.686,306,4.6335,107,0,1,0,0,0,1
+Unbroken,unbroken,2014,7.427,4171,5.3252,137,0,0,1,0,0,1
+Duck Duck Goose,duck duck goose,2018,6.21,167,4.7108,91,0,1,0,0,1,0

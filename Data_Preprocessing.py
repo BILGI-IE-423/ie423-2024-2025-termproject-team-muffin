@@ -3,25 +3,24 @@ import os
 import re
 import ast
 from sklearn.preprocessing import MultiLabelBinarizer
-import matplotlib.pyplot as plt
-import seaborn as sns
+import nlpaug.augmenter.word as naw
+from sklearn.utils import shuffle
 
-# Panda Configurations
+# Pandas display settings
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_colwidth', None)
 pd.set_option('display.expand_frame_repr', False)
 
-# Folder Control
-REQUIRED_FOLDERS = ["Raw Datasets", "Training Datasets", "Encoded Datasets"]
+# Check and create required folders
+REQUIRED_FOLDERS = ["Raw Datasets", "Training Datasets"]
 for folder in REQUIRED_FOLDERS:
     full_path = os.path.join(os.getcwd(), folder)
     if not os.path.exists(full_path):
         os.makedirs(full_path)
         print(f"Created missing folder: {folder}")
 
-
-# Normalization Maps
+# NORMALIZATION_MAPS FULL VERSION
 NORMALIZATION_MAPS = {
     "genre": {
         "tv dramas": "drama", "drama movies": "drama", "dramas": "drama", "drama": "drama",
@@ -91,9 +90,9 @@ def normalize_rating_to_group(rating):
     label = NORMALIZATION_MAPS["age_rating"].get(rating.strip().upper())
     if label in ["0+", "7+", "10+"]:
         return "child"
-    if label in ["13+", "14+", "16+"]:
+    if label in ["13+", "14+"]:
         return "teen"
-    if label == "18+":
+    if label in ["16+","18+"]:
         return "adult"
     return None
 
@@ -183,13 +182,6 @@ def load_and_merge(datasets, required_columns, source_type, join_on_norm_title=N
         result = pd.merge(result, join_on_norm_title, on="norm_title", how="inner")
     return result
 
-def save_processed_data(df, columns, filename):
-    training_dir = os.path.join(os.getcwd(), "Training Datasets")
-    full_path = os.path.join(training_dir, filename)
-    df.to_csv(full_path, columns=columns, index=False)
-    print(f"Saved to {full_path}")
-
-# Clean genre
 def clean_and_filter_genres(x):
     allowed_genres = NORMALIZATION_MAPS["allowed_genres"]
     if x is None or (isinstance(x, float) and pd.isna(x)):
@@ -217,77 +209,30 @@ def categorize_duration(mins):
     else:
         return "long"
 
-# Generate and save datasets
+
+
+# 1. Load necessary data (for genre)
+df_genre = load_and_merge(["netflix", "amazon"], ["title", "description", "genre"], "genre")
+df_genre["normalized_genres"] = df_genre["normalized_genres"].apply(clean_and_filter_genres)
+df_genre = df_genre[df_genre["normalized_genres"].map(lambda x: len(x) > 0)]
+
+# 2. Load necessary data (for age group)
 df_age = load_and_merge(["netflix", "amazon"], ["title", "description", "rating"], "age")
-save_processed_data(df_age, ["norm_title", "description", "audience_group"], "audience_group_training_data.csv")
+df_age = df_age[df_age["audience_group"].notna()]
 
-df_genre = load_and_merge(["netflix", "amazon", "imdb2"], ["title", "description", "genre"], "genre")
-save_processed_data(df_genre, ["norm_title", "description", "normalized_genres"], "genre_training_data.csv")
-
-df_duration = load_and_merge(["tmdb"],
-    ["title", "release_date", "vote_average", "vote_count", "popularity", "genres", "duration"],
-    "tmdb", join_on_norm_title=df_age[["norm_title", "audience_group"]]
-)
-save_processed_data(df_duration, ["title", "norm_title", "release_year", "vote_average", "vote_count", "popularity", "duration", "normalized_genres", "audience_group"],
-                    "duration_popularity_training_data.csv")
-
-# One-hot encode everything
-df_duration["normalized_genres"] = df_duration["normalized_genres"].apply(clean_and_filter_genres)
-df_duration = df_duration[df_duration["normalized_genres"].map(lambda x: len(x) > 0)]
-df_duration["duration_group"] = df_duration["duration"].apply(categorize_duration)
-
-mlb = MultiLabelBinarizer()
-genre_encoded = pd.DataFrame(mlb.fit_transform(df_duration["normalized_genres"]), columns=mlb.classes_)
-df_duration = df_duration.reset_index(drop=True).join(genre_encoded)
-df_duration = pd.get_dummies(df_duration, columns=["audience_group", "duration_group"])
+# 3. Merge on norm_title (for exact and clean match)
+df = pd.merge(df_genre, df_age[["norm_title", "audience_group"]], on="norm_title", how="inner")
 
 
+# 7. Final columns
+final_columns = ["norm_title", "description", "normalized_genres", "audience_group"]
+final_df = df[final_columns]
 
-# Encoded Outputs Directory
-encoded_dir = os.path.join(os.getcwd(), "Encoded Datasets")
-bool_cols = df_duration.select_dtypes(include='bool').columns
-df_duration[bool_cols] = df_duration[bool_cols].astype(int)
-df_duration.to_csv(os.path.join(encoded_dir, "duration_training_encoded.csv"), index=False)
-print("Output of Duration Encoded")
-print(df_duration.head(10))
-print("----------------------------------------------------")
-
-# Audience_group one-hot
-df_age_encoded = df_age.copy()
-df_age_encoded = pd.get_dummies(df_age_encoded, columns=["audience_group"])
-bool_cols = df_age_encoded.select_dtypes(include='bool').columns
-df_age_encoded[bool_cols] = df_age_encoded[bool_cols].astype(int)
+# 8. Save as CSV
+training_dir = os.path.join(os.getcwd(), "Training Datasets")
+final_path = os.path.join(training_dir, "multiinput_amazon_netflix_genre.csv")
+final_df.to_csv(final_path, index=False)
+print(f"Saved: {final_path}")
+print(final_df.head())
 
 
-df_age_encoded.to_csv(os.path.join(encoded_dir, "audience_group_training_encoded.csv"), index=False)
-
-print("Output of Age Encoded")
-print(df_age_encoded.head(10))
-print("----------------------------------------------------")
-# Normalized_genres -> one-hot
-df_genre_encoded = df_genre.copy()
-df_genre_encoded["normalized_genres"] = df_genre_encoded["normalized_genres"].apply(clean_and_filter_genres)
-df_genre_encoded = df_genre_encoded[df_genre_encoded["normalized_genres"].map(lambda x: len(x) > 0)]
-
-mlb_genre = MultiLabelBinarizer()
-genre_onehot = pd.DataFrame(mlb_genre.fit_transform(df_genre_encoded["normalized_genres"]), columns=mlb_genre.classes_)
-df_genre_encoded = df_genre_encoded.reset_index(drop=True).join(genre_onehot)
-df_genre_encoded.to_csv(os.path.join(encoded_dir, "genre_training_encoded.csv"), index=False)
-
-print("Output of Genre Encoded")
-print(df_genre_encoded.head())
-
-df_heat = df_duration.copy()
-
-df_heat["duration_cat"] = df_heat[["duration_group_short", "duration_group_medium", "duration_group_long"]].idxmax(axis=1).str.replace("duration_group_", "")
-df_heat["age_cat"] = df_heat[["audience_group_child", "audience_group_teen", "audience_group_adult"]].idxmax(axis=1).str.replace("audience_group_", "")
-
-cross_tab = pd.crosstab(df_heat["duration_cat"], df_heat["age_cat"])
-
-plt.figure(figsize=(8, 5))
-sns.heatmap(cross_tab, annot=True, fmt="d", cmap="YlOrRd")
-plt.title("Movie Duration vs Age Group")
-plt.xlabel("Age Group")
-plt.ylabel("Movie Duration")
-plt.tight_layout()
-plt.show()
