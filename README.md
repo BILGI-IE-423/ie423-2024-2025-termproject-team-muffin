@@ -331,7 +331,7 @@ In our research, we examined whether there was a significant relationship betwee
 
 
 
-![Image]([https://github.com/user-attachments/assets/42d5a99f-6917-4a20-8701-67ef939ada43](https://github.com/JesusCanberk/images/blob/ce2f304157dca7180fc82e5244c737a146ffa6d9/Q_1_1.png))
+[![Image]([https://github.com/user-attachments/assets/42d5a99f-6917-4a20-8701-67ef939ada43](https://github.com/JesusCanberk/images/blob/ce2f304157dca7180fc82e5244c737a146ffa6d9/Q_1_1.png))](https://github.com/JesusCanberk/images/issues/1#issue-3146724826)
 ---
 
 ## 🟢 How to Run
