@@ -378,6 +378,38 @@ To run the project:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Pre-trained Embeddings
+
+This project uses 100-dimensional GloVe embeddings. Please download the file manually:
+
+- [Download GloVe 6B (Common Crawl)](https://nlp.stanford.edu/data/glove.6B.zip)
+
+After downloading, extract and place the following file in a folder named `glove/` at the root of the project:
 
 
 
+## 🧠 Ensemble Model Requirements
+
+This project includes an ensemble model that combines the outputs of three individual classifiers:
+
+- **DistilBERT model**
+- **GloVe + LSTM model**
+- **TF-IDF + XGBoost model**
+
+Before running the ensemble script, make sure the following files are generated:
+
+### 🎯 For Genre Classification:
+```
+outputs/genre/ensemble_input_distilbert_model.csv
+outputs/genre/ensemble_input_glove_model.csv
+outputs/genre/ensemble_input_xgboost_model.csv
+```
+
+### 🎯 For Audience Group Classification:
+```
+outputs/audience/ensemble_input_DistilBERT_model.csv
+outputs/audience/ensemble_input_glove_model.csv
+outputs/audience/ensemble_input_xgboost_model.csv
+```
