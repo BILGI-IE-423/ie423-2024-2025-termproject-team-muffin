@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # 1. Load your dataset
-df = pd.read_csv('/content/duration_popularity_training_data.csv')
+df = pd.read_csv('Training Datasets/duration_popularity_training_data.csv')
 df = df.dropna()
 
 # 2. Create binary indicator columns for duration categories
