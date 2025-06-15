@@ -367,10 +367,7 @@ In our research, we examined whether there was a significant relationship betwee
 
 ![Image](https://github.com/user-attachments/assets/f1471b5d-5e0a-4b02-9342-5c766a7e9b90)
 ---
-
-## 🟢 How to Run
-
-To run the project:
+## Presequit
 
 1. Make sure you have **Python 3.11** installed.
 2. Open a terminal or command prompt in the project folder.
@@ -379,6 +376,13 @@ To run the project:
 ```bash
 pip install --no-cache-dir -r requirements.txt
 ```
+
+## 🟢 How to Run
+
+
+
+
+
 
 ## Pre-trained Embeddings
 
