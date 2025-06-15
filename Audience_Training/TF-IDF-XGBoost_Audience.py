@@ -108,7 +108,7 @@ print(classification_report(y_test, y_pred, target_names=label_encoder.classes_)
 # -----------------------------
 # 10. Save model and transformers
 # -----------------------------
-joblib.dump(model, "models/xgboost/xgboost_model.joblib")
+joblib.dump(model, "models/audience/xgboost_model.joblib")
 pickle.dump(tfidf_desc, open("models/audience/tfidf_desc.pkl", "wb"))
 pickle.dump(tfidf_genre, open("models/audience/tfidf_genre.pkl", "wb"))
 pickle.dump(label_encoder, open("models/audience/label_encoder.pkl", "wb"))
