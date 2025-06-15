@@ -368,5 +368,12 @@ To run the project:
 ```bash
 pip install -r requirements.txt
 
+## Required External Files
+
+This project uses 100-dimensional GloVe embeddings.  
+Please download `glove.6B.100d.txt` from the official GloVe site:  
+https://nlp.stanford.edu/data/glove.6B.zip
+
+Extract the file and place `glove.6B.100d.txt` in the main project directory.
 
 
