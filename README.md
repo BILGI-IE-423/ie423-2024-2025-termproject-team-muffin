@@ -386,6 +386,7 @@ outputs/audience/ensemble_input_DistilBERT_model.csv
 outputs/audience/ensemble_input_glove_model.csv
 outputs/audience/ensemble_input_xgboost_model.csv
 ```
+If any of these are missing, the script will stop and prompt you to run the individual models first.
 
 ## Required External Files
 
