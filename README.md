@@ -372,7 +372,7 @@ In our research, we examined whether there was a significant relationship betwee
 1. Make sure you have **Python 3.11** installed.
 2. (Optional) For GPU acceleration, ensure that **CUDA** and **cuDNN** are installed and compatible with your PyTorch version.  
    → [Check PyTorch + CUDA install instructions](https://pytorch.org/get-started/locally/)
-3.This project uses 100-dimensional GloVe embeddings. Please download the file manually:
+3. This project uses 100-dimensional GloVe embeddings. Please download the file manually:
 
 - [Download GloVe 6B (Common Crawl)](https://nlp.stanford.edu/data/glove.6B.zip)
 
