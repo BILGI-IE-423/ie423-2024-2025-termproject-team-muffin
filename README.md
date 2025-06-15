@@ -370,7 +370,13 @@ In our research, we examined whether there was a significant relationship betwee
 ## Presequit
 
 1. Make sure you have **Python 3.11** installed.
+2. (Optional) For GPU acceleration, ensure that **CUDA** and **cuDNN** are installed and compatible with your PyTorch version.  
+   → [Check PyTorch + CUDA install instructions](https://pytorch.org/get-started/locally/)
+3.This project uses 100-dimensional GloVe embeddings. Please download the file manually:
 
+- [Download GloVe 6B (Common Crawl)](https://nlp.stanford.edu/data/glove.6B.zip)
+
+After downloading, extract and place the following file in a folder named `glove/` at the root of the project.
 
 ## 🟢 How to Run
 
@@ -410,14 +416,6 @@ Audience_Training/Ensembled_Model_Audience.py
 ```
 Genre_Training/Ensembled_Model_Genre.py
 ```
-## Pre-trained Embeddings
-
-This project uses 100-dimensional GloVe embeddings. Please download the file manually:
-
-- [Download GloVe 6B (Common Crawl)](https://nlp.stanford.edu/data/glove.6B.zip)
-
-After downloading, extract and place the following file in a folder named `glove/` at the root of the project:
-
 
 
 ## 🧠 Ensemble Model Requirements
