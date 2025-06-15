@@ -8,7 +8,7 @@ from tqdm import tqdm
 df = pd.read_csv("Training Datasets/multiinput_amazon_netflix_genre.csv")
 
 # Parse genre column if stored as string
-df['genres'] = df['genres'].apply(lambda x: eval(x) if isinstance(x, str) else x)
+df['normalized_genres'] = df['normalized_genres'].apply(lambda x: eval(x) if isinstance(x, str) else x)
 
 # ================================
 # 1. Genre-Based Augmentation
@@ -18,7 +18,7 @@ genre_augmenter = naw.SynonymAug(aug_src='wordnet')
 genre_augmented_rows = []
 
 for genre in genre_targets:
-    genre_rows = df[df['genres'].apply(lambda g: genre in g)]
+    genre_rows = df[df['normalized_genres'].apply(lambda g: genre in g)]
     for _, row in tqdm(genre_rows.iterrows(), total=len(genre_rows), desc=f"Augmenting genre: {genre}"):
         new_row = row.copy()
         try:
@@ -29,7 +29,7 @@ for genre in genre_targets:
 
 # Save genre-augmented data
 df_genre_augmented = pd.DataFrame(genre_augmented_rows)
-df_genre_augmented.to_csv("augmented_genre_only.csv", index=False)
+df_genre_augmented.to_csv("Training Datasets/augmented_genre_only.csv", index=False)
 
 # ================================
 # 2. Child Audience-Based Augmentation
@@ -47,4 +47,4 @@ for text in tqdm(df_child["description"], desc="Augmenting child descriptions"):
 
 df_augmented_child = df_child.iloc[:len(augmented_child_descriptions)].copy()
 df_augmented_child["description"] = augmented_child_descriptions
-df_augmented_child.to_csv("Training Datasets/audience/train_augmented_child.csv", index=False)
+df_augmented_child.to_csv("Training Datasets/train_augmented_child.csv", index=False)
