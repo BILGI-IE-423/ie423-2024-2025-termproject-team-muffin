@@ -236,3 +236,44 @@ print(f"Saved: {final_path}")
 print(final_df.head())
 
 
+# 1. Load TMDB dataset and normalize
+tmdb_df = load_and_merge(["tmdb"], ["title", "popularity", "duration"], "tmdb")
+print("TMDB dataset loaded:", tmdb_df.shape)
+
+# 2. Load and merge age group + description from Netflix and Amazon
+age_df = load_and_merge(["netflix", "amazon"], ["title", "description", "rating"], "age")
+age_df = age_df[age_df["audience_group"].notna()]
+print("Age/Description dataset loaded:", age_df.shape)
+
+# 3. Merge on norm_title
+merged_df = pd.merge(tmdb_df, age_df, on="norm_title", how="inner")
+print("Merged TMDB + Age/Desc:", merged_df.shape)
+
+# 4. Clean numeric fields
+merged_df = merged_df[pd.to_numeric(merged_df["duration"], errors="coerce").notnull()]
+merged_df = merged_df[pd.to_numeric(merged_df["popularity"], errors="coerce").notnull()]
+merged_df["duration"] = merged_df["duration"].astype(float)
+merged_df["popularity"] = merged_df["popularity"].astype(float)
+
+# 5. Filter valid audience group
+merged_df = merged_df[merged_df["audience_group"].isin(["adult", "teen", "child"])]
+
+# 6. Categorize duration
+merged_df["duration_group"] = merged_df["duration"].apply(categorize_duration)
+
+# 7. Select and reorder final columns
+final_cols = ["title", "norm_title", "description", "popularity", "duration", "duration_group", "audience_group"]
+for col in final_cols:
+    if col not in merged_df.columns:
+        merged_df[col] = None
+
+output_df = merged_df[final_cols].dropna()
+output_df = output_df.drop_duplicates(subset="norm_title")
+print("Final cleaned dataset shape:", output_df.shape)
+
+# 8. Save to CSV
+outdir = "Training Datasets"
+os.makedirs(outdir, exist_ok=True)
+outfile = os.path.join(outdir, "duration_popularity_training_data.csv")
+output_df.to_csv(outfile, index=False)
+print(f"✅ Saved: {outfile}")
