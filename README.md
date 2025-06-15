@@ -381,33 +381,35 @@ In our research, we examined whether there was a significant relationship betwee
 pip install --no-cache-dir -r requirements.txt
 ```
 2. Prepare Datasets
-
-run Data_Preprocessing.py
-
+```
+Data_Preprocessing.py
+```
 3. Add Additional Features
-
-run Sentiment_Violence.py
-
+```
+Sentiment_Violence.py
+```
 4. Augment Data
-
-run Augmentations.py
-
+```
+Augmentations.py
+```
 5. Train Individual Models
-
+```
 Audience_Training/TF-IDF-XGBoost_Audience.py
 Audience_Training/LSTM_Audience.py
 Audience_Training/DistilBERT_Audience.py
-
-
+```
+```
 Genre_Training/DistilBERT_Genre.py
 Genre_Training/LSTM_Genre.py
 Genre_Training/TF-IDF-XGBoost_Genre.py
-
+```
 6. Run Ensemble Models
-
+```
 Audience_Training/Ensembled_Model_Audience.py
+```
+```
 Genre_Training/Ensembled_Model_Genre.py
-
+```
 ## Pre-trained Embeddings
 
 This project uses 100-dimensional GloVe embeddings. Please download the file manually:
