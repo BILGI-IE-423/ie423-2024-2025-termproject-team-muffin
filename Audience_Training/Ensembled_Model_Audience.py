@@ -4,10 +4,26 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, classification_report, accuracy_score, f1_score
 import matplotlib.pyplot as plt
 import os
-
+import sys
 # Ensure required folders exist
 os.makedirs("outputs", exist_ok=True)
 os.makedirs("graphics", exist_ok=True)
+
+# ========== Check if required input files exist ==========
+required_files = [
+    "outputs/audience/ensemble_input_DistilBERT_model.csv",
+    "outputs/audience/ensemble_input_glove_model.csv",
+    "outputs/audience/ensemble_input_xgboost_model.csv"
+]
+
+missing_files = [f for f in required_files if not os.path.exists(f)]
+
+if missing_files:
+    print("\n❌ ERROR: The following required input files are missing:")
+    for f in missing_files:
+        print(f"   - {f}")
+    print("\n⚠️ Please run the individual models (DistilBERT, GloVe-LSTM, XGBoost) before running the ensemble model.")
+    sys.exit(1)
 
 # Load model prediction outputs
 df_bert = pd.read_csv("outputs/audience/ensemble_input_DistilBERT_model.csv")
