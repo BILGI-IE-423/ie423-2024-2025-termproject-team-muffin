@@ -367,7 +367,7 @@ To run the project:
 
 ```bash
 pip install -r requirements.txt
-
+```
 ## Required External Files
 
 This project uses 100-dimensional GloVe embeddings.  
