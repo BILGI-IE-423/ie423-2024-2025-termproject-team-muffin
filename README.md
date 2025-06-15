@@ -148,15 +148,13 @@ Only the following genres were retained:
 
 ##  Final Outcome
 
-The preprocessing pipeline lays the foundation for a modular system designed to **predict or generate missing metadata fields** in streaming content datasets. After cleaning, merging, and encoding:
+The preprocessing pipeline lays the foundation for a modular system designed to **predict missing metadata fields** in streaming content datasets. After cleaning, merging, and encoding:
 
 - The datasets are structured to support three types of tasks:
   1. **Classification Models**:
      - Predict **genre** from `description` and `audience_group`.
      - Predict **audience_group** from `description` and `normalized_genres`.
-  2. **Text Generation Model**:
-     - Generate **description** from `title`, `normalized_genres`, and `audience_group` using text-based features.
-  3. **Analytical Model**:
+  2. **Analytical Model**:
      - Analyze how **duration** relates to **popularity** across different audience segments.
 
 - Each model is triggered **conditionally**, depending on which metadata field is missing.
