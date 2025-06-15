@@ -439,3 +439,17 @@ outputs/audience/ensemble_input_DistilBERT_model.csv
 outputs/audience/ensemble_input_glove_model.csv
 outputs/audience/ensemble_input_xgboost_model.csv
 ```
+# 📅 Gantt Chart (Proje Zaman Çizelgesi - Güncellenmiş)
+
+Bu tablo, projenizin 30 Mart - 15 Haziran tarihleri arasındaki güncel görev planlamasını göstermektedir.
+
+| Görev                                                   | Başlangıç Tarihi | Bitiş Tarihi | Süre (Gün) |
+|----------------------------------------------------------|------------------|--------------|------------|
+| Ham Verilerin Yüklenmesi ve İncelenmesi | 2024-03-30 | 2024-04-03 | 5 |
+| Veri Temizleme & Encoding (Data_Preprocessing.py) | 2024-04-03 | 2024-04-12 | 10 |
+| Açıklanabilirlik: SHAP & LIME | 2024-04-13 | 2024-04-16 | 4 |
+| Age Group Tahmini Modelleri (TF-IDF + BERT) | 2024-04-17 | 2024-05-04 | 18 |
+| Duration & Popularity Analizi | 2024-05-05 | 2024-05-07 | 3 |
+| Genre Tahmini - TF-IDF + XGBoost | 2024-05-08 | 2024-05-18 | 11 |
+| Genre Tahmini - BERT + Multiinput + Optuna | 2024-05-19 | 2024-06-12 | 25 |
+| Sonuçların Raporlanması & Github Web Sitesi | 2024-06-13 | 2024-06-15 | 3 |
