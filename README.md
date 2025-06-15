@@ -368,6 +368,25 @@ To run the project:
 ```bash
 pip install -r requirements.txt
 ```
+## 🧠 Ensemble Model Requirements
+
+This project includes an ensemble model that combines the outputs of three individual classifiers:
+
+- **DistilBERT model**
+- **GloVe + LSTM model**
+- **TF-IDF + XGBoost model**
+
+Before running the ensemble script, make sure the following files are generated:
+```
+outputs/genre/ensemble_input_distilbert_model.csv
+outputs/genre/ensemble_input_glove_model.csv
+outputs/genre/ensemble_input_xgboost_model.csv
+
+outputs/audience/ensemble_input_DistilBERT_model.csv
+outputs/audience/ensemble_input_glove_model.csv
+outputs/audience/ensemble_input_xgboost_model.csv
+```
+
 ## Required External Files
 
 This project uses 100-dimensional GloVe embeddings.  
