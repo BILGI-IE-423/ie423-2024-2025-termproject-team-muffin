@@ -372,12 +372,12 @@ In our research, we examined whether there was a significant relationship betwee
 
 To run the project:
 
-1. Make sure you have Python installed (version 3.8+ recommended).
+1. Make sure you have **Python 3.11** installed.
 2. Open a terminal or command prompt in the project folder.
 3. Install the required libraries by running:
 
 ```bash
-pip install -r requirements.txt
+pip install --no-cache-dir -r requirements.txt
 ```
 
 ## Pre-trained Embeddings
