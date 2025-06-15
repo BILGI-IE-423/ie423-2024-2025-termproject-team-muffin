@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Streaming Metadata Prediction</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fefefe;
+      margin: 0;
+      padding: 0;
+      color: #2c3e50;
+    }
+    header {
+      background-color: #1abc9c;
+      color: #fefefe;
+      padding: 20px 10px;
+      text-align: center;
+    }
+    nav {
+      background-color: #2c3e50;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fefefe;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 6px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+    img {
+      max-width: 100%;
+      margin: 15px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #ecf0f1;
+    }
+    .footer {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #ecf0f1;
+      border-left: 5px solid #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Predicting Metadata in Streaming Content</h1>
+    <p>NLP & Machine Learning Based Inference System</p>
+  </header>
+
+  <nav>
+    <a href="#abstract">Abstract</a>
+    <a href="#preprocessing">Preprocessing</a>
+    <a href="#models">Models</a>
+    <a href="#ensemble">Ensemble</a>
+    <a href="#results">Results</a>
+    <a href="#team">Team</a>
+  </nav>
+
+  <div class="container">
+    <h2 id="abstract">Abstract</h2>
+    <p>This project predicts missing metadata fields like genre and age group in streaming content using NLP and machine learning. It also analyzes how content duration correlates with popularity among different audiences using structured and text-based features from platforms like Netflix, IMDb, Amazon, and TMDb.</p>
+
+    <h2 id="preprocessing">Preprocessing</h2>
+    <p>Each dataset underwent normalization, genre and rating unification, and filtering. Key cleaning steps included mapping ambiguous genres to a fixed set, removing noisy samples, and categorizing duration into short, medium, and long formats.</p>
+    <img src="https://github.com/user-attachments/assets/42d5a99f-6917-4a20-8701-67ef939ada43" alt="Genre Distribution">
+    <img src="https://github.com/user-attachments/assets/a5c9efe9-be0a-46b8-9043-b438defeb652" alt="Normalization Flow">
+
+    
+    <h2 id="models">Model Training</h2>
+    <p>We implemented three main types of models to predict either genres (multi-label classification)
+    or audience groups (multi-class classification):</p>
+    <h3>TF-IDF + XGBoost</h3>
+    <p>This baseline model was used for both genre and age group predictions. It combined TF-IDF vectorization
+    on descriptions with one-hot encoded metadata features like sentiment and violence flags.</p>
+    <h3>GloVe + BiLSTM</h3>
+    <p>We integrated 100-dimensional GloVe word embeddings with a Bidirectional LSTM network. Class weights and early stopping
+    were used to manage class imbalance and overfitting. Sentiment and violence flags were concatenated at the dense layer level.</p>
+    <h3>DistilBERT Fine-Tuning</h3>
+    <p>A transformer-based architecture was fine-tuned to perform direct classification from raw descriptions. Optuna was used
+    for hyperparameter tuning (learning rate, batch size, dropout). WeightedRandomSampler and early stopping were also used.</p>
+    
+    <p>Several models were trained for genre and audience classification:</p>
+    <ul>
+      <li>TF-IDF + XGBoost</li>
+      <li>LSTM + GloVe Embedding</li>
+      <li>DistilBERT fine-tuning</li>
+    </ul>
+    <img src="https://github.com/user-attachments/assets/df40497e-538a-4f4b-b89f-7f5f3c3dbe87" alt="XGBoost Evaluation">
+    <img src="https://github.com/user-attachments/assets/959a1434-f3b7-450b-a15b-6dd99897f5c7" alt="LSTM Result">
+    <img src="https://github.com/user-attachments/assets/39f4e780-56df-40a8-803e-5ea08de91e66" alt="DistilBERT Performance">
+
+    <h2 id="ensemble">Ensemble Model</h2>
+    <p>To improve robustness, an ensemble model using Logistic Regression stacked the outputs of DistilBERT, LSTM, and XGBoost models.</p>
+    <img src="https://github.com/user-attachments/assets/75356f75-4685-4174-acb6-c20cebdd595c" alt="Ensemble Architecture">
+
+    
+    <h2 id="results">Results & Visualizations</h2>
+    <p>Each model was evaluated on a separate test set using precision, recall, and macro F1-scores.
+    For audience prediction, DistilBERT achieved the highest overall accuracy and consistency. Genre classification
+    was more balanced with ensemble stacking, especially benefiting underrepresented genres like horror and thriller.</p>
+    <p>We also analyzed whether content duration (short, medium, long) affected popularity across different audience
+    groups. Spearman and Pearson correlations were both below 0.25, suggesting no meaningful trend.</p>
+    
+    <p>The ensemble approach increased accuracy and consistency across noisy or underrepresented genres. Duration vs popularity analysis yielded a weak correlation.</p>
+    <img src="https://github.com/user-attachments/assets/28a337bb-67d7-4418-b9fa-61ac73312b9c" alt="Duration vs Popularity">
+    <img src="https://github.com/user-attachments/assets/52bce09b-712a-43e1-a8f0-1e28e053f02c" alt="Popularity by Group">
+    <img src="https://github.com/user-attachments/assets/f1471b5d-5e0a-4b02-9342-5c766a7e9b90" alt="Duration Histogram">
+
+    <h2 id="team">Contributors</h2>
+    <div class="footer">
+      <ul>
+        <li>Ahmet Kağan Çelenk - 121203114</li>
+        <li>Canberk Doğruoğlu - 122202090</li>
+        <li>Yiğit Şamil Ercedoğan - 121203076</li>
+        <li>Bartu Oğan - 122203098</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
