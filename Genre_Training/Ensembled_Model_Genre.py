@@ -6,6 +6,22 @@ from sklearn.multiclass import OneVsRestClassifier
 from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.metrics import classification_report, multilabel_confusion_matrix, ConfusionMatrixDisplay
 import matplotlib.pyplot as plt
+import sys
+# ========== Check if all input files exist ==========
+required_files = [
+    "outputs/genre/ensemble_input_distilbert_model.csv",
+    "outputs/genre/ensemble_input_glove_model.csv",
+    "outputs/genre/ensemble_input_xgboost_model.csv"
+]
+
+missing_files = [f for f in required_files if not os.path.exists(f)]
+
+if missing_files:
+    print("\n❌ ERROR: The following required input files are missing:")
+    for f in missing_files:
+        print(f"   - {f}")
+    print("\n⚠️ Please run the individual models (DistilBERT, GloVe-LSTM, XGBoost) before running the ensemble model.")
+    sys.exit(1)
 
 # 1. Read ensemble inputs
 df_bert = pd.read_csv("outputs/genre/ensemble_input_distilbert_model.csv")
