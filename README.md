@@ -1,11 +1,13 @@
-# Predicting and Generating Missing Metadata Fields in Streaming Content Using Text-Based Models
+# Predicting Missing Metadata Fields in Streaming Content Using Text-Based Models
 
 ##  Abstract
-This project aims to fill missing metadata fields—such as genre, target age group, and description—in streaming content datasets using Natural Language Processing and machine learning techniques. When one of the key elements (genre, age group, or description) is missing, the remaining available fields will be used to predict or generate the missing information. Classification models will be trained for genre and age group prediction, while a generative model will be used to construct meaningful descriptions from title, genre, and age data. Additionally, the relationship between content duration and popularity will be analyzed to understand audience preferences and platform strategies. The project focuses entirely on text-based features and uses publicly available streaming content datasets.
+This project aims to fill missing metadata fields—such as genre and target age group in streaming content datasets using Natural Language Processing and machine learning techniques. When one of the key elements (genre or age group) is missing the remaining available fields will be used to predict the missing information. Additionally, the relationship between content duration and popularity will be analyzed to understand audience preferences and platform strategies. The project focuses entirely on text-based features and uses publicly available streaming content datasets.
 
 ##  Scope of the Project
 
-The project focuses on developing a text-based pipeline that can intelligently complete missing metadata in streaming content datasets. Rather than relying on fixed fields, the system dynamically adapts to the available inputs. It uses classification models to infer categorical fields like genre and audience group, and a generative model to reconstruct missing descriptions. In cases where all three metadata fields are present, the system can also be used to evaluate consistency or enrich existing data for recommendation purposes. This modular structure allows each model to operate independently, ensuring that the pipeline remains useful even when only partial data is available.
+The project focuses on developing a text-based pipeline that can intelligently complete missing genres and age group in streaming content datasets. Rather than relying on fixed fields, the system dynamically adapts to the available inputs. It uses classification models to infer categorical fields like genre and audience group. In cases where all three metadata fields are present, the system can also be used to evaluate consistency or enrich existing data for recommendation purposes. This modular structure allows each model to operate independently, ensuring that the pipeline remains useful even when only partial data is available.
+
+The scope of this project is to develop and apply text-based machine learning solutions for enhancing the quality of streaming content datasets, with a particular focus on addressing gaps in metadata. By using textual information such as content descriptions the project will build predictive models to estimate missing values for crucial fields like genre and age group. Furthermore it will conduct a statistical exploration of how the duration of content correlates with its popularity among different audiences.
 
 ##  Research Questions
 1. How does the duration of streaming content (short vs. long) affect popularity among different audience groups?
@@ -178,6 +180,15 @@ To address this:
 - Entries with **uncertain labels** were **removed** from the dataset to reduce noise.
 
   ![Image](https://github.com/user-attachments/assets/e388af69-e5c4-4f36-a02b-8d3d4aaf0378)
+
+  | **Title**                                                                                                                                      | **Audience** | **Score** | **Keywords**                                                                                                                                                                       |
+|------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Two Mississippi teens meet peculiar drifter Mud and get caught up in his web of tall tales about lost love, crimes of passion and bounty hunters.  | Teen         | 0.483     | passion: 0.084, crimes: -0.076, web: -0.047, teens: -0.035, caught: 0.033, lost: 0.030, love: -0.023, tales: 0.007, Mud: -0.002, meet: -0.001                                     |
+| It's the treasure hunt of a lifetime for the Rescue Riders, who must race to find a precious golden dragon egg and protect it from evil pirates.    | Child        | 0.493     | Rescue: 0.224, hunt: -0.168, race: 0.130, evil: 0.091, protect: -0.060, Riders: -0.002, from: 0.002, and: -0.002, a: -0.002, golden: 0.001                                      |
+| Formerly a Korean resistance fighter, a policeman working for Japan is tasked with tracking down resistance leaders before they acquire explosives. | Adult        | 0.501     | working: -0.042, Korean: -0.00001, fighter: -0.00001, acquire: -0.00001, Formerly: -0.00001, Japan: -0.00001, resistance: -0.00001, explosives: -0.00001, leaders: -0.00001        |
+| One of the most successful female groups in music history, TLC performs in concert while taking a look back at their tumultuous history.           | Child        | 0.418     | history: 0.182, successful: -0.091, female: -0.065, look: 0.021, music: 0.015, taking: -0.005, TLC: 0.002, concert: 0.001, back: -0.001, tumultuous: 0.001                        |
+| In this short documentary, 37-year-old Cristina valiantly battles cancer while doing all she can to encourage others to live in the moment.       | Teen         | 0.424     | short: 0.249, cancer: -0.051, year: -0.035, old: 0.022, battles: -0.021, documentary: 0.020, live: -0.016, moment: -0.002, 37: 0.001, In: 0.001                                  |
+
 
 ---
 
@@ -367,33 +378,6 @@ To run the project:
 
 ```bash
 pip install -r requirements.txt
-```
-## 🧠 Ensemble Model Requirements
 
-This project includes an ensemble model that combines the outputs of three individual classifiers:
-
-- **DistilBERT model**
-- **GloVe + LSTM model**
-- **TF-IDF + XGBoost model**
-
-Before running the ensemble script, make sure the following files are generated:
-```
-outputs/genre/ensemble_input_distilbert_model.csv
-outputs/genre/ensemble_input_glove_model.csv
-outputs/genre/ensemble_input_xgboost_model.csv
-
-outputs/audience/ensemble_input_DistilBERT_model.csv
-outputs/audience/ensemble_input_glove_model.csv
-outputs/audience/ensemble_input_xgboost_model.csv
-```
-If any of these are missing, the script will stop and prompt you to run the individual models first.
-
-## Required External Files
-
-This project uses 100-dimensional GloVe embeddings.  
-Please download `glove.6B.100d.txt` from the official GloVe site:  
-https://nlp.stanford.edu/data/glove.6B.zip
-
-Extract the file and place `glove.6B.100d.txt` in the main project directory.
 
 
